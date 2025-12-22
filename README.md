@@ -6,7 +6,7 @@
 
 ## Features
 
-- **Random Route Generation**: Select from real-world airline routes
+- **Random Route Generation**: Select from real world airline routes
 - **Aircraft Compatibility**: Filter routes based on aircraft capabilities
 - **SimBrief Integration**: Automatically open generated routes in SimBrief Dispatch with realistic flight numbers
 
@@ -56,8 +56,8 @@ You can then choose to:
 ## Data Structure
 
 - `rawdata/`: Raw source data
-  - `airline_routes.json`: Complete airline route network
-  - `airports.csv`: Airport codes (IATA/ICAO mapping)
+  - `airline_routes.json`: Complete airline route network (Forgot who provied this, apologies.)
+  - `airports.csv`: Airport codes (Provided by [OurAirports](https://ourairports.com/data/))
 - `data/`: Processed airline-specific routes
   - `british_airways_routes.json`
   - `easyjet_routes.json`
@@ -88,5 +88,10 @@ The tool generates realistic flight numbers:
 ## Requirements
 
 - InquirerPy
+
+## Credits
+- Airport Data: [OurAirports](https://ourairports.com/data/)
+- Airline Route Data: Not provided or created by me but i couldnt find where i found it.
+- Program Development: [Me Me Me](https://hexif.vercel.app)
 
 ## [LICENSE](LICENSE.md)
