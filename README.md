@@ -1,5 +1,5 @@
 <h1 align="center">MSFS Route Creator</h1>
-<p align="center">A CLI tool for generating random realistic flight routes for MSFS with direct integration to SimBrief Dispatch for flight planning.</p>
+<p align="center">A GUI and CLI tool for generating random realistic flight routes for MSFS with direct integration to SimBrief Dispatch for flight planning.</p>
 
 ### [IMPORTANT NOTE FOR THE A380X](#some-notes)
 ### [Current airlines and aircrafts](docs/currentAirlinesAndAircraft.md)
@@ -30,6 +30,27 @@ python buildData.py
 
 ## Usage
 
+### GUI Mode (Default)
+
+Run the application without arguments to launch the GUI:
+```bash
+python main.py
+```
+
+The GUI provides:
+- **Dropdown menus** for airline and aircraft selection
+- **Fuzzy search** for departure airports
+- **Dynamic airline logos** that update based on selection
+- **Flight plan details panel** showing generated routes
+- **SimBrief integration button**
+
+### CLI Mode
+
+Run with the `-cli` flag for the original command-line interface:
+```bash
+python main.py -cli
+```
+
 ### Generate a Random Route
 
 Run the main application:
@@ -55,12 +76,25 @@ You can then choose to:
 
 ## Data Structure
 
-- `rawdata/`: Raw source data
-  - `airline_routes.json`: Complete airline route network (Forgot who provied this, apologies.)
-  - `airports.csv`: Airport codes (Provided by [OurAirports](https://ourairports.com/data/))
+The project is now modular with clear separation:
+
+- `core/`: Core logic
+  - `route_loader.py`: Route data loading and airport indexing
+  - `logic.py`: Flight number generation, route filtering, SimBrief URLs
+  - `cli.py`: CLI interface implementation
+- `gui/`: GUI components
+  - `main_window.py`: Main application window
+  - `top_left_panel.py`: Input controls
+  - `top_right_panel.py`: Airline logo display
+  - `bottom_left_panel.py`: Flight plan details output
+  - `bottom_right_panel.py`: Action buttons
 - `data/`: Processed airline-specific routes
   - `british_airways_routes.json`
   - `easyjet_routes.json`
+- `rawdata/`: Raw source data
+  - `airline_routes.json`: Complete airline route network
+  - `airports.csv`: Airport codes (Provided by [OurAirports](https://ourairports.com/data/))
+- `assets/`: Airline logo images for GUI
 
 ## Flight Number Logic
 
@@ -87,7 +121,8 @@ The tool generates realistic flight numbers:
 
 ## Requirements
 
-- InquirerPy
+- InquirerPy (for CLI)
+- PySide6 (for GUI)
 
 ## Credits
 - Airport Data: [OurAirports](https://ourairports.com/data/)

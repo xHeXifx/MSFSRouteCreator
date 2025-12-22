@@ -1,0 +1,138 @@
+from PySide6.QtWidgets import (QMainWindow, QWidget, QHBoxLayout, 
+                               QVBoxLayout, QMessageBox)
+from PySide6.QtCore import Qt
+import webbrowser
+
+from gui.top_left_panel import TopLeftPanel
+from gui.top_right_panel import TopRightPanel
+from gui.bottom_left_panel import BottomLeftPanel
+from gui.bottom_right_panel import BottomRightPanel
+from core.route_loader import load_routes, build_airport_index, get_airport_choices, extract_iata
+from core.logic import generate_random_route, build_simbrief_url, format_route_details
+
+
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.current_route = None
+        self.current_airline = None
+        self.current_aircraft = None
+        self.routes = []
+        self.init_ui()
+        self.load_initial_data()
+    
+    def init_ui(self):
+        self.setWindowTitle("MSFS Route Creator")
+        self.setMinimumSize(800, 600)
+        
+        central_widget = QWidget()
+        main_layout = QVBoxLayout()
+        
+        top_layout = QHBoxLayout()
+        
+        self.top_left = TopLeftPanel()
+        self.top_right = TopRightPanel()
+        
+        top_layout.addWidget(self.top_left, stretch=2)
+        top_layout.addWidget(self.top_right, stretch=1)
+        
+        bottom_layout = QHBoxLayout()
+        
+        self.bottom_left = BottomLeftPanel()
+        self.bottom_right = BottomRightPanel()
+        
+        bottom_layout.addWidget(self.bottom_left, stretch=2)
+        bottom_layout.addWidget(self.bottom_right, stretch=1)
+        
+        main_layout.addLayout(top_layout, stretch=1)
+        main_layout.addLayout(bottom_layout, stretch=1)
+        
+        central_widget.setLayout(main_layout)
+        self.setCentralWidget(central_widget)
+        
+        self.top_left.airline_changed.connect(self.on_airline_changed)
+        self.bottom_right.generate_clicked.connect(self.on_generate_clicked)
+        self.bottom_right.simbrief_clicked.connect(self.on_simbrief_clicked)
+        self.bottom_right.close_clicked.connect(self.close)
+    
+    def load_initial_data(self):
+        pass
+    
+    def load_airline_data(self, airline_name):
+        if not airline_name or airline_name.startswith("--"):
+            return
+        
+        try:
+            self.routes = load_routes(airline_name)
+            airport_index = build_airport_index(self.routes)
+            airport_choices = get_airport_choices(airport_index)
+            self.top_left.set_airport_choices(airport_choices)
+        except Exception as e:
+            QMessageBox.critical(
+                self,
+                "Error",
+                f"Failed to load airline data: {str(e)}"
+            )
+    
+    def on_airline_changed(self, airline_name):
+        if not airline_name or airline_name.startswith("--"):
+            self.routes = []
+            self.top_left.set_airport_choices([])
+            return
+        
+        self.load_airline_data(airline_name)
+        self.top_right.update_logo(airline_name)
+        self.current_route = None
+        self.bottom_left.clear_details()
+        self.bottom_right.enable_simbrief(False)
+    
+    def on_generate_clicked(self):
+        valid, error_msg = self.top_left.validate_inputs()
+        if not valid:
+            QMessageBox.warning(self, "Validation Error", error_msg)
+            return
+        
+        airline = self.top_left.get_selected_airline()
+        aircraft = self.top_left.get_selected_aircraft()
+        departure_text = self.top_left.get_departure_airport()
+        max_time = self.top_left.get_max_time()
+
+        try:
+            origin_iata = extract_iata(departure_text)
+        except:
+            QMessageBox.warning(
+                self,
+                "Invalid Input",
+                "Please select a valid departure airport from the list"
+            )
+            return
+        
+        route = generate_random_route(self.routes, origin_iata, aircraft, max_time)
+        
+        if not route:
+            QMessageBox.information(
+                self,
+                "No Routes Found",
+                "❌ No valid routes found with current filters.\n\n"
+                "Try adjusting your filters or selecting a different departure airport."
+            )
+            return
+        
+        self.current_route = route
+        self.current_airline = airline
+        self.current_aircraft = aircraft
+        
+        details = format_route_details(airline, aircraft, route)
+        self.bottom_left.update_details(details)
+        self.bottom_right.enable_simbrief(True)
+    
+    def on_simbrief_clicked(self):
+        if not self.current_route:
+            return
+        
+        url = build_simbrief_url(
+            self.current_airline,
+            self.current_aircraft,
+            self.current_route
+        )
+        webbrowser.open(url)

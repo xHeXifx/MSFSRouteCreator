@@ -121,11 +121,7 @@ for origin_iata, origin_data in data.items():
                 **base_entry,
                 "supports_a320": supports_a320(distance_km),
                 "supports_a380": False
-            })
-
-# -----------------------------
-# Write output
-# -----------------------------
+            }) 
 
 with open(OUTPUT_BA, "w", encoding="utf-8") as f:
     json.dump({
