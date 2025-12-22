@@ -2,7 +2,12 @@ import json
 
 AIRLINE_FILES = {
     "British Airways": "data/british_airways_routes.json",
-    "easyJet": "data/easyjet_routes.json"
+    "easyJet": "data/easyjet_routes.json",
+    "Ryanair": "data/ryanair_routes.json",
+    "Emirates": "data/emirates_routes.json",
+    "Lufthansa": 'data/lufthansa_routes.json',
+    "Singapore Airlines": "data/singapore_airlines_routes.json",
+    "Qatar Airways": 'data/qatar_airways_routes.json'
 }
 
 

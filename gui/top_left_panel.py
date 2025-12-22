@@ -1,6 +1,7 @@
 from PySide6.QtWidgets import (QWidget, QVBoxLayout, QLabel, 
                                QComboBox, QLineEdit, QCompleter)
 from PySide6.QtCore import Qt, Signal
+from core.route_loader import AIRLINE_FILES
 
 
 class TopLeftPanel(QWidget):
@@ -27,7 +28,7 @@ class TopLeftPanel(QWidget):
         airline_label.setStyleSheet("font-weight: bold;")
         self.airline_combo = QComboBox()
         self.airline_combo.addItem("-- Select Airline --", None)
-        self.airline_combo.addItems(["British Airways", "easyJet"])
+        self.airline_combo.addItems(list(AIRLINE_FILES.keys()))
         self.airline_combo.currentTextChanged.connect(self.airline_changed.emit)
         layout.addWidget(airline_label)
         layout.addWidget(self.airline_combo)

@@ -96,28 +96,11 @@ The project is now modular with clear separation:
   - `airports.csv`: Airport codes (Provided by [OurAirports](https://ourairports.com/data/))
 - `assets/`: Airline logo images for GUI
 
-## Flight Number Logic
-
-The tool generates realistic flight numbers:
-
-**British Airways (BAW)**:
-- Heathrow (EGLL): 1-999
-- Gatwick (EGKK): 2000-2899
-- London City/Newquay: 3000-4500
-- Other airports: 1300-1499
-
-**easyJet (EZY)**:
-- Gatwick (EGKK): 6000-6999 or 8000-8999
-- Luton (EGGW): 1-1999
-- Stansted (EGSS): 3000-3999
-- Other airports: 7000-7999
-
 ## Some Notes
 
-- Currently the A380X has NO valid routes with easyJet, this is mainly because easyJet doesnt fly far enough for a valid A380 flight but IRL they also just don't fly the A380 anyways.
+- Real world fleet applies, airlines which dont fly the A380 wont return any valid flights when selecting the A380.
 - Not 1000% sure if everything generated is 100% valid in a real world scenario. Flight numbers may also be wrong but i've gone off data i could find around the internet and hoped for the best. 
-- I do plan on adding more airlines at some point, easyJet and British Airways are my personal prefference of airlines on MSFS so thats the 2 I've gone with for now however hopefully more soon.
-- As well as airlines do plan on more aircraft, again i mainly use the A320N and the A380 so haven't added more.
+- As well as airlines i do plan on more aircraft, again i mainly use the A320N and the A380 so haven't added more.
 
 ## Requirements
 

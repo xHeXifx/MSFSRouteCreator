@@ -26,6 +26,65 @@ def genFlightNum(airline, departure_icao):
             flight_no = random.randint(3000, 3999)
         else:
             flight_no = random.randint(7000, 7999)
+
+    elif airline == 'ryanair':
+        prefix = "RYR"
+        if departure_icao == 'EGSS':  # Stansted
+            flight_no = random.randint(1000, 1999)
+        elif departure_icao == 'EGGW':  # Luton
+            flight_no = random.randint(2000, 2999)
+        elif departure_icao == 'EGMC':  # Manchester
+            flight_no = random.randint(3000, 3999)
+        else:
+            flight_no = random.randint(4000, 4999)
+
+    elif airline == 'emirates':
+        prefix = "UAE"
+        if departure_icao == 'OMDB':  # Dubai
+            flight_no = random.randint(1, 9999)
+        elif departure_icao in ['OMAA', 'OMRK']:  # Abu Dhabi / Ras Al Khaimah
+            flight_no = random.randint(2000, 3999)
+        elif departure_icao in ['EGLL', 'LFPG', 'EDDF']:  # Major European destinations
+            flight_no = random.randint(100, 999)
+        elif departure_icao in ['KJFK', 'KLAX', 'CYYZ']:  # North America
+            flight_no = random.randint(100, 499)
+        else:
+            flight_no = random.randint(500, 9999)
+
+    elif airline == 'lufthansa':
+        prefix = "DLH"
+        if departure_icao == 'EDDF':  # Frankfurt hub
+            flight_no = random.randint(1, 4999)
+        elif departure_icao == 'EDDM':  # Munich hub
+            flight_no = random.randint(100, 3999)
+        elif departure_icao in ['EDDS', 'EDDH']:  # Stuttgart / Hamburg
+            flight_no = random.randint(100, 1999)
+        else:  # Other airports
+            flight_no = random.randint(500, 4999)
+
+    elif airline == 'singapore airlines':
+        prefix = "SIA"
+        if departure_icao == 'WSSS':  # Singapore Changi
+            flight_no = random.randint(1, 9999)
+        elif departure_icao in ['WMKK', 'WADD']:  # Kuala Lumpur / Bali
+            flight_no = random.randint(100, 999)
+        elif departure_icao in ['RJTT', 'KLAX', 'EGLL']:  # Major international routes
+            flight_no = random.randint(1000, 4999)
+        else:
+            flight_no = random.randint(500, 4999)
+
+    elif airline == 'qatar_airways':
+        prefix = "QTR"
+        if departure_icao == 'OTHH':  # Doha
+            flight_no = random.randint(1, 4999)
+        elif departure_icao in ['OMDB', 'OOMS']:  # UAE / Middle East
+            flight_no = random.randint(100, 999)
+        elif departure_icao in ['KJFK', 'EGLL', 'EDDF']:  # Major international routes
+            flight_no = random.randint(1000, 3999)
+        else:
+            flight_no = random.randint(500, 3999)
+
+
     else:
         return "Unknown Airline"
 

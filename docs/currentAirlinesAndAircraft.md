@@ -19,3 +19,8 @@ More to come hopefully
 # Airlines
 - British Airways
 - easyJet
+- Emirates
+- Lufthansa
+- Qatar Airways
+- Ryanair
+- Singapore

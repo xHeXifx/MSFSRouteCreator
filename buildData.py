@@ -11,6 +11,11 @@ AIRPORTS_CSV = "rawdata/airports.csv"
 
 OUTPUT_BA = "data/british_airways_routes.json"
 OUTPUT_EZY = "data/easyjet_routes.json"
+OUTPUT_FR = "data/ryanair_routes.json" # Why would they make ryan airs IATA code FR?? 
+OUTPUT_EK = 'data/emirates_routes.json'
+OUTPUT_LH = 'data/lufthansa_routes.json'
+OUTPUT_SQ = 'data/singapore_airlines_routes.json'
+OUTPUT_QR = 'data/qatar_airways_routes.json'
 
 CRUISE_SPEED_KTS = 290
 CRUISE_SPEED_KMH = CRUISE_SPEED_KTS * 1.852
@@ -72,6 +77,11 @@ with open(INPUT_FILE, "r", encoding="utf-8") as f:
 
 ba_routes = []
 ezy_routes = []
+fr_routes = []
+ek_routes = []
+lh_routes = []
+sq_routes = []
+qr_routes = []
 
 # -----------------------------
 # Process routes
@@ -123,6 +133,41 @@ for origin_iata, origin_data in data.items():
                 "supports_a380": False
             }) 
 
+        if "FR" in carriers:
+            fr_routes.append({
+                **base_entry,
+                "supports_a320": supports_a320(distance_km),
+                "supports_a380": False
+            })
+
+        if "EK" in carriers:
+            ek_routes.append({
+                **base_entry,
+                "supports_a320": False,
+                "supports_a380": supports_a380(origin_iata, dest_iata, distance_km)
+            })
+
+        if 'LH' in carriers:
+            lh_routes.append({
+                **base_entry,
+                "supports_a320": supports_a320(distance_km),
+                "supports_a380": supports_a380(origin_iata, dest_iata, distance_km)
+            })
+
+        if 'SQ' in carriers:
+            sq_routes.append({
+                **base_entry,
+                "supports_a320": False,
+                "supports_a380": supports_a380(origin_iata, dest_iata, distance_km)
+            })
+
+        if "QR" in carriers:
+            qr_routes.append({
+                **base_entry,
+                "supports_a320": supports_a320(distance_km),
+                "supports_a380": supports_a380(origin_iata, dest_iata, distance_km)
+            })
+
 with open(OUTPUT_BA, "w", encoding="utf-8") as f:
     json.dump({
         "airline": "British Airways",
@@ -137,4 +182,44 @@ with open(OUTPUT_EZY, "w", encoding="utf-8") as f:
         "iata": "U2",
         "icao": "EZY",
         "routes": ezy_routes
+    }, f, indent=2)
+
+with open(OUTPUT_FR, 'w', encoding='utf-8') as f:
+    json.dump({
+        "airline": "Ryan Air",
+        "iata": "FR",
+        "icao": "RYR",
+        "routes": fr_routes
+    }, f, indent=2)
+
+with open(OUTPUT_EK, 'w', encoding='utf-8') as f:
+    json.dump({
+        "airline": "Emirates",
+        "iata": "EK",
+        "icao": "UAE",
+        "routes": ek_routes
+    },f, indent=2)
+
+with open(OUTPUT_LH, 'w', encoding='utf-8') as f:
+    json.dump({
+        "airline": "Lufthansa",
+        "iata": "LH",
+        "icao": "DLH",
+        "routes": lh_routes
+    }, f, indent=2)
+
+with open(OUTPUT_SQ, 'w', encoding='utf-8') as f:
+    json.dump({
+        "airline": "Singapore Airlines",
+        "iata": "SQ",
+        "icao": "SIA", 
+        "routes": sq_routes
+    }, f, indent=2)
+
+with open(OUTPUT_QR, 'w', encoding='utf-8') as f:
+    json.dump({
+        "airline": "Qatar Airways",
+        "iata": "QR",
+        "icao": "QTR",
+        "routes": qr_routes
     }, f, indent=2)

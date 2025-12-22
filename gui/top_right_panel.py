@@ -39,7 +39,12 @@ class TopRightPanel(QWidget):
         
         logo_map = {
             "British Airways": "British Airways.png",
-            "easyJet": "easyJet.png"
+            "easyJet": "easyJet.png",
+            "Ryanair": "Ryanair.jpg",
+            "Emirates": "Emirates.png",
+            "Lufthansa": "Lufthansa.png",
+            "Singapore Airlines": "Singapore Airlines.png",
+            "Qatar Airways": "Qatar Airways.jpg"
         }
         
         logo_filename = logo_map.get(airline_name)
