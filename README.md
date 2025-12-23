@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="/assets/icon.png" alt="MSFS Route Creator Logo" width="200">
-</p>
 <h1 align="center">MSFS Route Creator</h1>
 <p align="center">A GUI and CLI tool for generating random realistic flight routes for MSFS with direct integration to SimBrief Dispatch for flight planning.</p>
 
