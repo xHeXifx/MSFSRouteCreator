@@ -1,0 +1,2613 @@
+{
+    "21 Air": {
+        "validAircraft": []
+    },
+    "40-Mile Air": {
+        "validAircraft": []
+    },
+    "9 Air Co": {
+        "validAircraft": []
+    },
+    "AIS Airlines": {
+        "validAircraft": []
+    },
+    "ANA": {
+        "validAircraft": []
+    },
+    "APG Airlines": {
+        "validAircraft": []
+    },
+    "ASKY Airlines": {
+        "validAircraft": []
+    },
+    "ASL Airlines France": {
+        "validAircraft": []
+    },
+    "AVIANCA": {
+        "validAircraft": []
+    },
+    "AZAL Azerbaijan Airlines": {
+        "validAircraft": []
+    },
+    "AZUR air": {
+        "validAircraft": []
+    },
+    "Advanced Air": {
+        "validAircraft": []
+    },
+    "Aegean Airlines": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A321",
+            "B37M"
+        ]
+    },
+    "Aer Lingus": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "B37M",
+            "B752",
+            "B762",
+            "BLCF",
+            "MD11"
+        ]
+    },
+    "Aero Asia International": {
+        "validAircraft": []
+    },
+    "Aero Mongolia": {
+        "validAircraft": []
+    },
+    "Aero VIP": {
+        "validAircraft": []
+    },
+    "AeroItalia": {
+        "validAircraft": []
+    },
+    "Aeroflot": {
+        "validAircraft": [
+            "A310",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A35K",
+            "AN12",
+            "B37M",
+            "B762",
+            "B772",
+            "B78X",
+            "DC10",
+            "MD11",
+            "SU95",
+            "T134",
+            "T204",
+            "YK42"
+        ]
+    },
+    "Aerolineas Argentinas": {
+        "validAircraft": [
+            "A310",
+            "A320",
+            "A332",
+            "A342",
+            "B37M",
+            "B752",
+            "BLCF"
+        ]
+    },
+    "Aerolineas MAS": {
+        "validAircraft": []
+    },
+    "Aerolink Uganda": {
+        "validAircraft": []
+    },
+    "Aeromexico": {
+        "validAircraft": [
+            "B37M",
+            "B752",
+            "B762",
+            "B772",
+            "DC10"
+        ]
+    },
+    "Aerovías DAP": {
+        "validAircraft": []
+    },
+    "Africa World Airlines": {
+        "validAircraft": []
+    },
+    "Afrijet": {
+        "validAircraft": []
+    },
+    "Afriqiyah Airways": {
+        "validAircraft": []
+    },
+    "Air Albania": {
+        "validAircraft": []
+    },
+    "Air Algerie": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A320",
+            "A332",
+            "A342",
+            "B37M",
+            "B762",
+            "B772",
+            "B78X",
+            "BLCF",
+            "DC10"
+        ]
+    },
+    "Air Alsie": {
+        "validAircraft": []
+    },
+    "Air Antwerp": {
+        "validAircraft": []
+    },
+    "Air Arabia": {
+        "validAircraft": [
+            "A320"
+        ]
+    },
+    "Air Arabia Abu Dhabi": {
+        "validAircraft": []
+    },
+    "Air Arabia Egypt": {
+        "validAircraft": [
+            "A320"
+        ]
+    },
+    "Air Arabia Jordan": {
+        "validAircraft": [
+            "A320"
+        ]
+    },
+    "Air Arabia Maroc": {
+        "validAircraft": [
+            "A320"
+        ]
+    },
+    "Air Astana": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A321",
+            "B37M",
+            "B752",
+            "B762",
+            "B78X"
+        ]
+    },
+    "Air Austral": {
+        "validAircraft": []
+    },
+    "Air Baltic": {
+        "validAircraft": []
+    },
+    "Air Botswana": {
+        "validAircraft": []
+    },
+    "Air Burkina": {
+        "validAircraft": []
+    },
+    "Air Busan": {
+        "validAircraft": [
+            "A320",
+            "A321",
+            "B37M"
+        ]
+    },
+    "Air Cairo": {
+        "validAircraft": [
+            "A320",
+            "A321"
+        ]
+    },
+    "Air Caledonie": {
+        "validAircraft": []
+    },
+    "Air Canada": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "B37M",
+            "B721",
+            "B762",
+            "B772",
+            "BCS3",
+            "BLCF"
+        ]
+    },
+    "Air Caraibes": {
+        "validAircraft": []
+    },
+    "Air Central": {
+        "validAircraft": []
+    },
+    "Air Changan": {
+        "validAircraft": []
+    },
+    "Air Chathams": {
+        "validAircraft": []
+    },
+    "Air China": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "B37M",
+            "B752",
+            "B762",
+            "B772",
+            "BLCF"
+        ]
+    },
+    "Air Corsica": {
+        "validAircraft": []
+    },
+    "Air Cote D'Ivoire": {
+        "validAircraft": []
+    },
+    "Air Creebec": {
+        "validAircraft": []
+    },
+    "Air Dolomiti": {
+        "validAircraft": []
+    },
+    "Air Europa": {
+        "validAircraft": [
+            "A332",
+            "A342",
+            "B37M",
+            "B752",
+            "B762"
+        ]
+    },
+    "Air Excursions": {
+        "validAircraft": []
+    },
+    "Air France": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A318",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "A359",
+            "A388",
+            "B37M",
+            "B721",
+            "B762",
+            "B772",
+            "BLCF",
+            "CONC",
+            "DC10"
+        ]
+    },
+    "Air Guilin": {
+        "validAircraft": []
+    },
+    "Air India": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "B37M",
+            "B752",
+            "B762",
+            "B772",
+            "BLCF",
+            "L101"
+        ]
+    },
+    "Air India Express": {
+        "validAircraft": [
+            "B37M"
+        ]
+    },
+    "Air Inuit": {
+        "validAircraft": []
+    },
+    "Air Japan": {
+        "validAircraft": []
+    },
+    "Air KBZ": {
+        "validAircraft": []
+    },
+    "Air Kiribati": {
+        "validAircraft": []
+    },
+    "Air Koryo": {
+        "validAircraft": []
+    },
+    "Air Leap": {
+        "validAircraft": []
+    },
+    "Air Liaison": {
+        "validAircraft": []
+    },
+    "Air Link": {
+        "validAircraft": []
+    },
+    "Air Macau": {
+        "validAircraft": []
+    },
+    "Air Madagascar": {
+        "validAircraft": []
+    },
+    "Air Malta": {
+        "validAircraft": [
+            "A319",
+            "A320"
+        ]
+    },
+    "Air Mauritius": {
+        "validAircraft": [
+            "A319",
+            "A332",
+            "A342",
+            "B762",
+            "BLCF"
+        ]
+    },
+    "Air Midwest": {
+        "validAircraft": []
+    },
+    "Air New Zealand": {
+        "validAircraft": [
+            "A320",
+            "A321",
+            "B37M",
+            "B762",
+            "B772",
+            "BLCF",
+            "DC10"
+        ]
+    },
+    "Air Niugini": {
+        "validAircraft": []
+    },
+    "Air North": {
+        "validAircraft": []
+    },
+    "Air Panama": {
+        "validAircraft": []
+    },
+    "Air Peace": {
+        "validAircraft": []
+    },
+    "Air Philip": {
+        "validAircraft": []
+    },
+    "Air Rarotonga": {
+        "validAircraft": []
+    },
+    "Air Saint Pierre": {
+        "validAircraft": []
+    },
+    "Air Senegal": {
+        "validAircraft": []
+    },
+    "Air Seoul": {
+        "validAircraft": [
+            "A321"
+        ]
+    },
+    "Air Serbia": {
+        "validAircraft": []
+    },
+    "Air Seychelles": {
+        "validAircraft": []
+    },
+    "Air Southwest": {
+        "validAircraft": []
+    },
+    "Air Tahiti": {
+        "validAircraft": []
+    },
+    "Air Tahiti Nui": {
+        "validAircraft": []
+    },
+    "Air Tanzania": {
+        "validAircraft": []
+    },
+    "Air Tindi": {
+        "validAircraft": []
+    },
+    "Air Transat": {
+        "validAircraft": [
+            "A310",
+            "A320",
+            "A332",
+            "B37M",
+            "B721",
+            "B752"
+        ]
+    },
+    "Air Vanuatu": {
+        "validAircraft": []
+    },
+    "Air Zimbabwe": {
+        "validAircraft": []
+    },
+    "AirAsia": {
+        "validAircraft": [
+            "A320",
+            "A321",
+            "B37M",
+            "BLCF",
+            "MD11"
+        ]
+    },
+    "AirAsia India": {
+        "validAircraft": [
+            "A320"
+        ]
+    },
+    "AirAsia Japan": {
+        "validAircraft": [
+            "A320"
+        ]
+    },
+    "AirAsia X": {
+        "validAircraft": [
+            "A332",
+            "A342",
+            "A35K"
+        ]
+    },
+    "AirGlow Aviation Services": {
+        "validAircraft": []
+    },
+    "AirKenya Express": {
+        "validAircraft": []
+    },
+    "AirSWIFT": {
+        "validAircraft": []
+    },
+    "Airblue": {
+        "validAircraft": []
+    },
+    "Airbus Transport International": {
+        "validAircraft": []
+    },
+    "Aircalin": {
+        "validAircraft": []
+    },
+    "Airlink (South Africa)": {
+        "validAircraft": []
+    },
+    "Airnorth": {
+        "validAircraft": []
+    },
+    "AlMasria": {
+        "validAircraft": []
+    },
+    "Alaska Airlines": {
+        "validAircraft": [
+            "B37M"
+        ]
+    },
+    "Alaska Seaplanes": {
+        "validAircraft": []
+    },
+    "AlbaStar": {
+        "validAircraft": []
+    },
+    "Alexandria Airlines": {
+        "validAircraft": []
+    },
+    "Allegiant Air": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "B752"
+        ]
+    },
+    "Alliance Air": {
+        "validAircraft": []
+    },
+    "Alliance Airlines": {
+        "validAircraft": []
+    },
+    "Amakusa Airlines": {
+        "validAircraft": []
+    },
+    "Amapola Flyg": {
+        "validAircraft": []
+    },
+    "American Airlines": {
+        "validAircraft": [
+            "A30B",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "B37M",
+            "B712",
+            "B752",
+            "B762",
+            "B772",
+            "BLCF",
+            "DC10",
+            "MD11",
+            "MD90"
+        ]
+    },
+    "Anguilla Air Services": {
+        "validAircraft": []
+    },
+    "Apex Airline": {
+        "validAircraft": []
+    },
+    "Apsara International": {
+        "validAircraft": []
+    },
+    "Ariana Afghan Airlines": {
+        "validAircraft": []
+    },
+    "Arik Air": {
+        "validAircraft": []
+    },
+    "Arkia Israeli Airlines": {
+        "validAircraft": []
+    },
+    "Armenia Aircompany": {
+        "validAircraft": []
+    },
+    "Armenia Airways": {
+        "validAircraft": []
+    },
+    "Asia Atlantic Airlines": {
+        "validAircraft": []
+    },
+    "Asian Air": {
+        "validAircraft": []
+    },
+    "Asiana Airlines": {
+        "validAircraft": [
+            "A320",
+            "A321",
+            "A332",
+            "A35K",
+            "A388",
+            "B37M",
+            "B762",
+            "B772",
+            "BLCF"
+        ]
+    },
+    "Astra Airlines": {
+        "validAircraft": []
+    },
+    "Astral Aviation": {
+        "validAircraft": []
+    },
+    "Atlantic Airways": {
+        "validAircraft": []
+    },
+    "Atlantique Air": {
+        "validAircraft": []
+    },
+    "Atlasglobal": {
+        "validAircraft": []
+    },
+    "Auric Air": {
+        "validAircraft": []
+    },
+    "Aurigny Air Services": {
+        "validAircraft": []
+    },
+    "Aurora": {
+        "validAircraft": []
+    },
+    "Austral": {
+        "validAircraft": []
+    },
+    "Austrian": {
+        "validAircraft": []
+    },
+    "Avia Traffic Company": {
+        "validAircraft": []
+    },
+    "Aviair": {
+        "validAircraft": []
+    },
+    "Avior": {
+        "validAircraft": []
+    },
+    "Azimuth Airlines": {
+        "validAircraft": []
+    },
+    "Azores Airlines": {
+        "validAircraft": []
+    },
+    "Azul": {
+        "validAircraft": [
+            "A320",
+            "A332"
+        ]
+    },
+    "Badr Airlines": {
+        "validAircraft": []
+    },
+    "Bahamasair": {
+        "validAircraft": []
+    },
+    "Bamboo Airways": {
+        "validAircraft": []
+    },
+    "Bangkok Airways": {
+        "validAircraft": []
+    },
+    "Batik Air": {
+        "validAircraft": [
+            "A320",
+            "B37M"
+        ]
+    },
+    "Batik Air Malaysia": {
+        "validAircraft": []
+    },
+    "Bearskin Airlines": {
+        "validAircraft": []
+    },
+    "Beijing Capital Airlines": {
+        "validAircraft": []
+    },
+    "Belavia": {
+        "validAircraft": []
+    },
+    "Bhutan Airlines": {
+        "validAircraft": []
+    },
+    "Biman Bangladesh Airlines": {
+        "validAircraft": []
+    },
+    "Binter Canarias": {
+        "validAircraft": []
+    },
+    "Blue Islands": {
+        "validAircraft": []
+    },
+    "Blue Panorama Airlines": {
+        "validAircraft": []
+    },
+    "BoA": {
+        "validAircraft": []
+    },
+    "Boutique Air": {
+        "validAircraft": []
+    },
+    "Braathens Regional": {
+        "validAircraft": []
+    },
+    "Braathens Regional Airlines": {
+        "validAircraft": []
+    },
+    "Breeze Airways": {
+        "validAircraft": []
+    },
+    "Bristow": {
+        "validAircraft": []
+    },
+    "British Airways": {
+        "validAircraft": [
+            "A318",
+            "A319",
+            "A320",
+            "A321",
+            "A35K",
+            "A388",
+            "B37M",
+            "B752",
+            "B762",
+            "B772",
+            "BLCF",
+            "CONC",
+            "DC10",
+            "DHC6",
+            "L101"
+        ]
+    },
+    "Brussels Airlines": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A332",
+            "B37M"
+        ]
+    },
+    "Buddha Air": {
+        "validAircraft": []
+    },
+    "Bulgaria Air": {
+        "validAircraft": []
+    },
+    "Buraq Air": {
+        "validAircraft": []
+    },
+    "CAA": {
+        "validAircraft": []
+    },
+    "CEIBA Intercontinental": {
+        "validAircraft": []
+    },
+    "CM Airlines": {
+        "validAircraft": []
+    },
+    "CMA": {
+        "validAircraft": []
+    },
+    "CSA": {
+        "validAircraft": []
+    },
+    "Caicos Express Airways": {
+        "validAircraft": []
+    },
+    "California Pacific Airlines": {
+        "validAircraft": []
+    },
+    "Calm Air International": {
+        "validAircraft": []
+    },
+    "Camair-Co": {
+        "validAircraft": []
+    },
+    "Cambodia Angkor Air": {
+        "validAircraft": [
+            "A320",
+            "A321"
+        ]
+    },
+    "CanJet Airlines": {
+        "validAircraft": []
+    },
+    "Canadian North": {
+        "validAircraft": []
+    },
+    "Cape Air": {
+        "validAircraft": []
+    },
+    "Cardig Air": {
+        "validAircraft": []
+    },
+    "Caribbean Airlines": {
+        "validAircraft": []
+    },
+    "Cathay Dragon": {
+        "validAircraft": [
+            "A320",
+            "A321",
+            "A332"
+        ]
+    },
+    "Cathay Pacific": {
+        "validAircraft": [
+            "A332",
+            "A342",
+            "B772",
+            "BLCF"
+        ]
+    },
+    "Cayman Airways": {
+        "validAircraft": []
+    },
+    "Cebgo": {
+        "validAircraft": []
+    },
+    "Cebu Pacific Air": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "B752"
+        ]
+    },
+    "CemAir": {
+        "validAircraft": []
+    },
+    "Chalair": {
+        "validAircraft": []
+    },
+    "Charlie Airlines": {
+        "validAircraft": []
+    },
+    "Chengdu Airlines": {
+        "validAircraft": []
+    },
+    "China Airlines": {
+        "validAircraft": [
+            "A30B",
+            "A320",
+            "A332",
+            "A342",
+            "B37M",
+            "B762",
+            "B772",
+            "BLCF",
+            "MD11"
+        ]
+    },
+    "China Eastern Airlines": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "A35K",
+            "B37M",
+            "B762",
+            "B772",
+            "B78X",
+            "MD11",
+            "MD90"
+        ]
+    },
+    "China Southern Airlines": {
+        "validAircraft": [
+            "A30B",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A388",
+            "B37M",
+            "B752",
+            "B762",
+            "B772",
+            "BLCF",
+            "MD90"
+        ]
+    },
+    "China United Airlines": {
+        "validAircraft": [
+            "A319",
+            "B37M"
+        ]
+    },
+    "Chongqing Airlines": {
+        "validAircraft": []
+    },
+    "Cimber AS": {
+        "validAircraft": []
+    },
+    "Citilink": {
+        "validAircraft": [
+            "A320",
+            "B37M"
+        ]
+    },
+    "Coastal Aviation": {
+        "validAircraft": []
+    },
+    "Colorful GuiZhou Airlines": {
+        "validAircraft": []
+    },
+    "Condor": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A319",
+            "A320",
+            "A321",
+            "B37M",
+            "B721",
+            "B752",
+            "B762",
+            "BLCF",
+            "DC10"
+        ]
+    },
+    "Contour Aviation": {
+        "validAircraft": []
+    },
+    "Conviasa": {
+        "validAircraft": []
+    },
+    "Copa Airlines": {
+        "validAircraft": [
+            "B37M"
+        ]
+    },
+    "Corendon Airlines": {
+        "validAircraft": []
+    },
+    "Corendon Airlines Europe": {
+        "validAircraft": []
+    },
+    "Corendon Dutch Airlines": {
+        "validAircraft": []
+    },
+    "Corsair": {
+        "validAircraft": []
+    },
+    "Croatia Airlines": {
+        "validAircraft": []
+    },
+    "Cubana de Aviacion": {
+        "validAircraft": []
+    },
+    "Daallo Airlines": {
+        "validAircraft": []
+    },
+    "Danish Air": {
+        "validAircraft": []
+    },
+    "Dart Airlines": {
+        "validAircraft": []
+    },
+    "Delta Air Lines": {
+        "validAircraft": []
+    },
+    "Deutsche Bahn": {
+        "validAircraft": []
+    },
+    "Discover Airlines": {
+        "validAircraft": []
+    },
+    "Divi Divi Air": {
+        "validAircraft": []
+    },
+    "Donavia": {
+        "validAircraft": []
+    },
+    "Donghai Airlines": {
+        "validAircraft": []
+    },
+    "Drukair": {
+        "validAircraft": []
+    },
+    "EVA Air": {
+        "validAircraft": [
+            "A320",
+            "A321",
+            "A332",
+            "B752",
+            "B762",
+            "B772",
+            "B78X",
+            "BLCF",
+            "MD11",
+            "MD90"
+        ]
+    },
+    "EWA AIR": {
+        "validAircraft": []
+    },
+    "EZAir": {
+        "validAircraft": []
+    },
+    "Eastar Jet": {
+        "validAircraft": []
+    },
+    "Eastern Airways": {
+        "validAircraft": []
+    },
+    "Easy Fly Express": {
+        "validAircraft": []
+    },
+    "EasyFly": {
+        "validAircraft": []
+    },
+    "Edelweiss Air": {
+        "validAircraft": [
+            "A320",
+            "A332",
+            "A342"
+        ]
+    },
+    "EgyptAir": {
+        "validAircraft": [
+            "A30B",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "B37M",
+            "B762",
+            "B772",
+            "BLCF"
+        ]
+    },
+    "El Al": {
+        "validAircraft": [
+            "B37M",
+            "B752",
+            "B762",
+            "B772",
+            "B78X",
+            "BLCF",
+            "MD11"
+        ]
+    },
+    "Emirates": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A319",
+            "A332",
+            "A342",
+            "A388",
+            "B37M",
+            "B772",
+            "BLCF"
+        ]
+    },
+    "Ethiopian Airlines": {
+        "validAircraft": [
+            "B37M",
+            "B752",
+            "B762",
+            "B772",
+            "MD11"
+        ]
+    },
+    "Etihad Airways": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "A388",
+            "B762",
+            "B772",
+            "BLCF"
+        ]
+    },
+    "EuroAtlantic Airways": {
+        "validAircraft": []
+    },
+    "Eurowings": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A332",
+            "B37M"
+        ]
+    },
+    "Evelop Airlines": {
+        "validAircraft": []
+    },
+    "Executive Express Aviation": {
+        "validAircraft": []
+    },
+    "Eznis Airways": {
+        "validAircraft": []
+    },
+    "Fastjet": {
+        "validAircraft": []
+    },
+    "Felix Airways": {
+        "validAircraft": []
+    },
+    "Fiji Airways": {
+        "validAircraft": []
+    },
+    "Finnair": {
+        "validAircraft": [
+            "A30B",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "B37M",
+            "B752",
+            "DC10",
+            "MD11"
+        ]
+    },
+    "Firefly": {
+        "validAircraft": [
+            "B37M"
+        ]
+    },
+    "Flair Airlines": {
+        "validAircraft": []
+    },
+    "Fly All Ways": {
+        "validAircraft": []
+    },
+    "Fly Angola": {
+        "validAircraft": []
+    },
+    "Fly Baghdad": {
+        "validAircraft": []
+    },
+    "Fly One": {
+        "validAircraft": []
+    },
+    "FlyEgypt": {
+        "validAircraft": []
+    },
+    "FlyPelican": {
+        "validAircraft": []
+    },
+    "FlyViking": {
+        "validAircraft": []
+    },
+    "Flyadeal": {
+        "validAircraft": []
+    },
+    "Flyest Lineas Aereas": {
+        "validAircraft": []
+    },
+    "Flyme": {
+        "validAircraft": []
+    },
+    "Flynas": {
+        "validAircraft": []
+    },
+    "Freebird Airlines": {
+        "validAircraft": []
+    },
+    "French Bee": {
+        "validAircraft": []
+    },
+    "Frontier Airlines": {
+        "validAircraft": [
+            "A318",
+            "A319",
+            "A320",
+            "A321",
+            "B37M"
+        ]
+    },
+    "Fuji Dream Airlines": {
+        "validAircraft": []
+    },
+    "Fuzhou Airlines": {
+        "validAircraft": []
+    },
+    "Garuda Indonesia": {
+        "validAircraft": [
+            "A30B",
+            "A332",
+            "A342",
+            "B37M",
+            "B762",
+            "B772",
+            "BLCF",
+            "DC10",
+            "L101",
+            "MD11"
+        ]
+    },
+    "Gazpromavia": {
+        "validAircraft": []
+    },
+    "Genghis Khan Airlines": {
+        "validAircraft": []
+    },
+    "Georgian Airways": {
+        "validAircraft": []
+    },
+    "Germania": {
+        "validAircraft": []
+    },
+    "Gestair": {
+        "validAircraft": []
+    },
+    "Global Aviation": {
+        "validAircraft": []
+    },
+    "Global Jet": {
+        "validAircraft": []
+    },
+    "Gol": {
+        "validAircraft": []
+    },
+    "Grand China Air": {
+        "validAircraft": []
+    },
+    "Groupe Transair": {
+        "validAircraft": []
+    },
+    "Guangxi Beibu Gulf Airlines": {
+        "validAircraft": []
+    },
+    "Gulf Air": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "B37M",
+            "B752",
+            "B762",
+            "B772",
+            "B78X",
+            "BCS1",
+            "BLCF"
+        ]
+    },
+    "HK Express": {
+        "validAircraft": []
+    },
+    "HOP!-REGIONAL": {
+        "validAircraft": []
+    },
+    "Hainan Airlines": {
+        "validAircraft": [
+            "A319",
+            "A332",
+            "A342",
+            "B37M",
+            "B762"
+        ]
+    },
+    "Harbour Air": {
+        "validAircraft": []
+    },
+    "Hawaiian Airlines": {
+        "validAircraft": [
+            "A321",
+            "A332",
+            "B712",
+            "B762",
+            "DC10"
+        ]
+    },
+    "Hebei Airlines": {
+        "validAircraft": []
+    },
+    "Hex'Air": {
+        "validAircraft": []
+    },
+    "Himalaya Airlines": {
+        "validAircraft": []
+    },
+    "Hinterland Aviation": {
+        "validAircraft": []
+    },
+    "Hong Kong Airlines": {
+        "validAircraft": []
+    },
+    "HongTu Airlines": {
+        "validAircraft": []
+    },
+    "Hunnu Air": {
+        "validAircraft": []
+    },
+    "I-Fly": {
+        "validAircraft": []
+    },
+    "ITA Airways": {
+        "validAircraft": []
+    },
+    "Iberia": {
+        "validAircraft": [
+            "A30B",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "A35K",
+            "B37M",
+            "B752",
+            "B762",
+            "BLCF",
+            "DC10"
+        ]
+    },
+    "Iberia Express": {
+        "validAircraft": [
+            "A320",
+            "A321"
+        ]
+    },
+    "Icelandair": {
+        "validAircraft": []
+    },
+    "Iliamna Air Taxi": {
+        "validAircraft": []
+    },
+    "IndiGo": {
+        "validAircraft": [
+            "A320",
+            "A321"
+        ]
+    },
+    "Indian Airlines": {
+        "validAircraft": []
+    },
+    "Indonesia AirAsia": {
+        "validAircraft": [
+            "A320",
+            "B37M"
+        ]
+    },
+    "InselAir Aruba": {
+        "validAircraft": []
+    },
+    "Inter Iles Air": {
+        "validAircraft": []
+    },
+    "Intercontinental Airways (Gambia)": {
+        "validAircraft": []
+    },
+    "Interjet": {
+        "validAircraft": [
+            "A320",
+            "A321",
+            "SU95"
+        ]
+    },
+    "IrAero": {
+        "validAircraft": []
+    },
+    "Iran Air": {
+        "validAircraft": []
+    },
+    "Iran Airtour": {
+        "validAircraft": []
+    },
+    "Iran Aseman Airlines": {
+        "validAircraft": []
+    },
+    "Iraqi Airways": {
+        "validAircraft": []
+    },
+    "Island Air Service": {
+        "validAircraft": []
+    },
+    "Izhavia (duplicate)": {
+        "validAircraft": []
+    },
+    "JAL": {
+        "validAircraft": []
+    },
+    "Jambojet Limited": {
+        "validAircraft": [
+            "B37M"
+        ]
+    },
+    "Japan Transocean Air": {
+        "validAircraft": []
+    },
+    "Jazeera Airways": {
+        "validAircraft": []
+    },
+    "Jeju Air": {
+        "validAircraft": []
+    },
+    "Jet2": {
+        "validAircraft": [
+            "A320",
+            "A321",
+            "B37M",
+            "B752"
+        ]
+    },
+    "JetBlue Airways": {
+        "validAircraft": [
+            "A320",
+            "A321"
+        ]
+    },
+    "JetSMART": {
+        "validAircraft": []
+    },
+    "Jetstar": {
+        "validAircraft": []
+    },
+    "Jetstar Asia": {
+        "validAircraft": []
+    },
+    "Jetstar Japan": {
+        "validAircraft": []
+    },
+    "Jiangxi Airlines": {
+        "validAircraft": []
+    },
+    "Jin Air": {
+        "validAircraft": [
+            "B37M",
+            "B772"
+        ]
+    },
+    "Jordan Aviation": {
+        "validAircraft": []
+    },
+    "Joy Air": {
+        "validAircraft": []
+    },
+    "Juneyao Airlines": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A321"
+        ]
+    },
+    "KLM": {
+        "validAircraft": [
+            "A310",
+            "A332",
+            "A35K",
+            "B37M",
+            "B762",
+            "B772",
+            "BLCF",
+            "DC10",
+            "MD11"
+        ]
+    },
+    "Kam Air": {
+        "validAircraft": []
+    },
+    "Kenmore Air": {
+        "validAircraft": []
+    },
+    "Kenn Borek Air": {
+        "validAircraft": []
+    },
+    "Kenya Airways": {
+        "validAircraft": [
+            "A310",
+            "B37M",
+            "B752",
+            "B762",
+            "B772"
+        ]
+    },
+    "Key Lime Air": {
+        "validAircraft": []
+    },
+    "Korean Air": {
+        "validAircraft": [
+            "A21N",
+            "A30B",
+            "A332",
+            "A388",
+            "B37M",
+            "B721",
+            "B772",
+            "BCS3",
+            "BLCF",
+            "DC10",
+            "MD11"
+        ]
+    },
+    "KrasAvia": {
+        "validAircraft": []
+    },
+    "Kunming Airlines": {
+        "validAircraft": []
+    },
+    "Kuwait Airways": {
+        "validAircraft": []
+    },
+    "Kuwait National Airways": {
+        "validAircraft": []
+    },
+    "LAM": {
+        "validAircraft": []
+    },
+    "LASER Airlines": {
+        "validAircraft": []
+    },
+    "LATAM Airlines": {
+        "validAircraft": []
+    },
+    "LATAM Airlines Argentina": {
+        "validAircraft": [
+            "A320",
+            "B762"
+        ]
+    },
+    "LGW": {
+        "validAircraft": []
+    },
+    "LJ Air": {
+        "validAircraft": []
+    },
+    "LOT - Polish Airlines": {
+        "validAircraft": []
+    },
+    "La Compagnie": {
+        "validAircraft": []
+    },
+    "Lao Airlines": {
+        "validAircraft": []
+    },
+    "Lao Skyway": {
+        "validAircraft": []
+    },
+    "Libyan Airlines": {
+        "validAircraft": []
+    },
+    "Libyan Wings": {
+        "validAircraft": []
+    },
+    "Linea Aerea Eco": {
+        "validAircraft": []
+    },
+    "Link Airways": {
+        "validAircraft": []
+    },
+    "Lion Air": {
+        "validAircraft": [
+            "A310",
+            "A320",
+            "A332",
+            "B37M",
+            "BLCF",
+            "MD90"
+        ]
+    },
+    "Loganair": {
+        "validAircraft": []
+    },
+    "Loong Air": {
+        "validAircraft": []
+    },
+    "Lucky Air": {
+        "validAircraft": []
+    },
+    "Lufthansa": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "A388",
+            "B37M",
+            "B721",
+            "B762",
+            "B772",
+            "BLCF",
+            "DC10"
+        ]
+    },
+    "Lulutai Airlines": {
+        "validAircraft": []
+    },
+    "Luxair": {
+        "validAircraft": []
+    },
+    "Lviv Airlines": {
+        "validAircraft": []
+    },
+    "MAYAir": {
+        "validAircraft": []
+    },
+    "Mahan Air": {
+        "validAircraft": []
+    },
+    "Mahogany Air": {
+        "validAircraft": []
+    },
+    "Malaysia Airlines": {
+        "validAircraft": [
+            "A30B",
+            "A332",
+            "A388",
+            "B37M",
+            "B772",
+            "BLCF",
+            "DC10",
+            "MD11"
+        ]
+    },
+    "Maldivian": {
+        "validAircraft": []
+    },
+    "Mandarin Airlines": {
+        "validAircraft": []
+    },
+    "Mann Yadanarpon Airlines": {
+        "validAircraft": []
+    },
+    "Mauritania Airlines International": {
+        "validAircraft": []
+    },
+    "Maya Island Air": {
+        "validAircraft": []
+    },
+    "Med View Airlines": {
+        "validAircraft": []
+    },
+    "Mexicana de Aviación": {
+        "validAircraft": []
+    },
+    "Miat - Mongolian Airlines": {
+        "validAircraft": []
+    },
+    "Middle East Airlines": {
+        "validAircraft": []
+    },
+    "Mount Cook Airlines": {
+        "validAircraft": []
+    },
+    "Murray Air": {
+        "validAircraft": []
+    },
+    "Myanmar Airways International": {
+        "validAircraft": []
+    },
+    "Myanmar National Airlines": {
+        "validAircraft": []
+    },
+    "Myway Airlines": {
+        "validAircraft": []
+    },
+    "Nam Air": {
+        "validAircraft": []
+    },
+    "Naysa": {
+        "validAircraft": []
+    },
+    "Neos": {
+        "validAircraft": []
+    },
+    "Nepal Airlines": {
+        "validAircraft": []
+    },
+    "NewGen Airways": {
+        "validAircraft": []
+    },
+    "NextJet": {
+        "validAircraft": []
+    },
+    "Niger Airlines": {
+        "validAircraft": []
+    },
+    "Nile Air": {
+        "validAircraft": []
+    },
+    "Nok Air": {
+        "validAircraft": [
+            "B37M"
+        ]
+    },
+    "Nok Mini": {
+        "validAircraft": []
+    },
+    "NordStar Airlines": {
+        "validAircraft": []
+    },
+    "Nordavia Regional Airlines": {
+        "validAircraft": []
+    },
+    "Nordwind Airlines": {
+        "validAircraft": []
+    },
+    "Norse": {
+        "validAircraft": []
+    },
+    "North-Wright Airways": {
+        "validAircraft": []
+    },
+    "Norwegian Air": {
+        "validAircraft": [
+            "A320",
+            "A321",
+            "A342",
+            "B37M"
+        ]
+    },
+    "Norwegian Air Argentina": {
+        "validAircraft": []
+    },
+    "Norwegian Air Intl": {
+        "validAircraft": []
+    },
+    "Norwegian Air UK": {
+        "validAircraft": []
+    },
+    "Nouvelair Tunisie": {
+        "validAircraft": []
+    },
+    "Novoair": {
+        "validAircraft": []
+    },
+    "NyxAir": {
+        "validAircraft": []
+    },
+    "Okay Airways": {
+        "validAircraft": []
+    },
+    "Olympic Air": {
+        "validAircraft": [
+            "A319",
+            "A320"
+        ]
+    },
+    "Oman Air": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A320",
+            "A332",
+            "B37M",
+            "B752",
+            "B762"
+        ]
+    },
+    "Orange2Fly": {
+        "validAircraft": []
+    },
+    "Overland Airways": {
+        "validAircraft": []
+    },
+    "PAL Aerospace": {
+        "validAircraft": []
+    },
+    "PNG Air": {
+        "validAircraft": []
+    },
+    "Pacific Coastal Airlines": {
+        "validAircraft": []
+    },
+    "Pakistan International Airlines": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A320",
+            "A321",
+            "A332",
+            "B37M",
+            "B772",
+            "B78X",
+            "BLCF",
+            "DC10"
+        ]
+    },
+    "Pamir Air": {
+        "validAircraft": []
+    },
+    "Papillon Airways": {
+        "validAircraft": []
+    },
+    "Paradise Air": {
+        "validAircraft": []
+    },
+    "Pascan Aviation": {
+        "validAircraft": []
+    },
+    "Passaredo": {
+        "validAircraft": []
+    },
+    "Passion Air": {
+        "validAircraft": []
+    },
+    "Peach Aviation": {
+        "validAircraft": []
+    },
+    "Pegas Fly": {
+        "validAircraft": []
+    },
+    "Pegasus": {
+        "validAircraft": []
+    },
+    "Peoples Viennaline": {
+        "validAircraft": []
+    },
+    "Perimeter Aviation": {
+        "validAircraft": []
+    },
+    "Philippine Airlines": {
+        "validAircraft": [
+            "A30B",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "A35K",
+            "B37M",
+            "B772",
+            "BLCF",
+            "DC10",
+            "MD11"
+        ]
+    },
+    "Philippines AirAsia": {
+        "validAircraft": [
+            "A320"
+        ]
+    },
+    "Plus Ultra": {
+        "validAircraft": []
+    },
+    "Pobeda": {
+        "validAircraft": [
+            "B37M"
+        ]
+    },
+    "Polar Airlines": {
+        "validAircraft": []
+    },
+    "Polynesian Airline of Samoa": {
+        "validAircraft": []
+    },
+    "Porter Airlines": {
+        "validAircraft": []
+    },
+    "Precision Air": {
+        "validAircraft": []
+    },
+    "Prescott Support Company": {
+        "validAircraft": []
+    },
+    "Primera Air Scandinavia": {
+        "validAircraft": []
+    },
+    "Proflight Zambia": {
+        "validAircraft": []
+    },
+    "Qantas": {
+        "validAircraft": []
+    },
+    "Qatar Airways": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "A388",
+            "B37M",
+            "B752",
+            "B762",
+            "B772",
+            "BLCF"
+        ]
+    },
+    "Qazaq Air": {
+        "validAircraft": []
+    },
+    "Qeshm Air": {
+        "validAircraft": []
+    },
+    "Qingdao Airlines": {
+        "validAircraft": []
+    },
+    "Ravn Alaska": {
+        "validAircraft": []
+    },
+    "Real Tonga": {
+        "validAircraft": []
+    },
+    "Red Wings": {
+        "validAircraft": []
+    },
+    "Regional Air": {
+        "validAircraft": []
+    },
+    "Rex Regional Express": {
+        "validAircraft": []
+    },
+    "Royal Air Charter": {
+        "validAircraft": []
+    },
+    "Royal Air Maroc": {
+        "validAircraft": [
+            "A320",
+            "A321",
+            "B37M",
+            "B752",
+            "B762",
+            "BLCF"
+        ]
+    },
+    "Royal Brunei Airlines": {
+        "validAircraft": []
+    },
+    "Royal Jordanian": {
+        "validAircraft": [
+            "A310",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "BLCF",
+            "L101"
+        ]
+    },
+    "Ruili Airlines": {
+        "validAircraft": []
+    },
+    "RusLine (Duplicate)": {
+        "validAircraft": []
+    },
+    "Rutaca Airlines": {
+        "validAircraft": []
+    },
+    "RwandAir": {
+        "validAircraft": []
+    },
+    "Ryanair": {
+        "validAircraft": []
+    },
+    "Ryanair UK": {
+        "validAircraft": []
+    },
+    "S7 Airlines": {
+        "validAircraft": [
+            "A310",
+            "A319",
+            "A320",
+            "A321",
+            "B37M",
+            "B762",
+            "T204"
+        ]
+    },
+    "SANSA Regional": {
+        "validAircraft": []
+    },
+    "SATA - Air Acores": {
+        "validAircraft": []
+    },
+    "SATENA": {
+        "validAircraft": []
+    },
+    "SCAT Airlines": {
+        "validAircraft": []
+    },
+    "SWISS": {
+        "validAircraft": []
+    },
+    "Safair": {
+        "validAircraft": []
+    },
+    "Safarilink": {
+        "validAircraft": []
+    },
+    "Safe Air Company": {
+        "validAircraft": []
+    },
+    "Saint Barth Commuter": {
+        "validAircraft": []
+    },
+    "Salam Air": {
+        "validAircraft": []
+    },
+    "Saudia": {
+        "validAircraft": []
+    },
+    "Scandinavian Airlines": {
+        "validAircraft": [
+            "A30B",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "A35K",
+            "B37M",
+            "B762",
+            "BLCF",
+            "DC10",
+            "MD90",
+            "SB20"
+        ]
+    },
+    "Scenic Airlines": {
+        "validAircraft": []
+    },
+    "Scoot": {
+        "validAircraft": []
+    },
+    "Seaborne Airlines": {
+        "validAircraft": []
+    },
+    "Servant Air": {
+        "validAircraft": []
+    },
+    "Severstal Aircompany": {
+        "validAircraft": []
+    },
+    "Shandong Airlines": {
+        "validAircraft": []
+    },
+    "Shanghai Airlines": {
+        "validAircraft": [
+            "A321",
+            "A332",
+            "B37M",
+            "B752",
+            "B762",
+            "MD11"
+        ]
+    },
+    "Sharp Airlines": {
+        "validAircraft": []
+    },
+    "Shenzhen Airlines": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A332",
+            "B37M"
+        ]
+    },
+    "Shree Airlines": {
+        "validAircraft": []
+    },
+    "Shuttle America": {
+        "validAircraft": []
+    },
+    "Sichuan Airlines": {
+        "validAircraft": []
+    },
+    "Silk Way Airlines": {
+        "validAircraft": []
+    },
+    "Silver Airways": {
+        "validAircraft": []
+    },
+    "Singapore Airlines": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A332",
+            "A342",
+            "A388",
+            "B37M",
+            "B752",
+            "B772",
+            "B78X",
+            "BLCF",
+            "DC10"
+        ]
+    },
+    "Skippers Aviation": {
+        "validAircraft": []
+    },
+    "Sky Airline": {
+        "validAircraft": []
+    },
+    "Sky Airlines": {
+        "validAircraft": []
+    },
+    "Sky Alps": {
+        "validAircraft": []
+    },
+    "Sky Angkor": {
+        "validAircraft": []
+    },
+    "Sky Express": {
+        "validAircraft": []
+    },
+    "Sky High Aviation Services": {
+        "validAircraft": []
+    },
+    "Skygreece Airlines": {
+        "validAircraft": []
+    },
+    "Skymark Airlines": {
+        "validAircraft": [
+            "A332",
+            "B37M",
+            "B762"
+        ]
+    },
+    "Skypower Express Airways": {
+        "validAircraft": []
+    },
+    "Skytrans Airlines": {
+        "validAircraft": []
+    },
+    "Skyward Express": {
+        "validAircraft": []
+    },
+    "Skyway Costa Rica": {
+        "validAircraft": []
+    },
+    "SmartWings": {
+        "validAircraft": []
+    },
+    "Solomon Airlines": {
+        "validAircraft": []
+    },
+    "Sounds Air": {
+        "validAircraft": []
+    },
+    "South African Airways": {
+        "validAircraft": [
+            "A30B",
+            "A319",
+            "A320",
+            "A332",
+            "A342",
+            "B37M",
+            "B762",
+            "BLCF"
+        ]
+    },
+    "Southern Airways Express": {
+        "validAircraft": []
+    },
+    "Southwest Airlines": {
+        "validAircraft": [
+            "B37M"
+        ]
+    },
+    "SpiceJet": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "B37M"
+        ]
+    },
+    "Spirit Airlines": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A321"
+        ]
+    },
+    "Spring Airlines": {
+        "validAircraft": [
+            "A320"
+        ]
+    },
+    "Spring Airlines Japan": {
+        "validAircraft": []
+    },
+    "SriLankan Airlines": {
+        "validAircraft": []
+    },
+    "Sriwijaya Air": {
+        "validAircraft": []
+    },
+    "Star Air": {
+        "validAircraft": []
+    },
+    "Starlux Airlines": {
+        "validAircraft": []
+    },
+    "Stobart Air": {
+        "validAircraft": []
+    },
+    "Sun Country Airlines": {
+        "validAircraft": []
+    },
+    "SunExpress": {
+        "validAircraft": [
+            "A320",
+            "B37M",
+            "B752"
+        ]
+    },
+    "Sunrise Airways": {
+        "validAircraft": []
+    },
+    "Sunwing Airlines": {
+        "validAircraft": []
+    },
+    "Suparna Airlines": {
+        "validAircraft": []
+    },
+    "Surinam Airways": {
+        "validAircraft": []
+    },
+    "Swissair": {
+        "validAircraft": []
+    },
+    "Syrian Air": {
+        "validAircraft": []
+    },
+    "TAAG": {
+        "validAircraft": []
+    },
+    "TAB": {
+        "validAircraft": []
+    },
+    "TACV": {
+        "validAircraft": []
+    },
+    "TAG": {
+        "validAircraft": []
+    },
+    "TAP Portugal": {
+        "validAircraft": [
+            "A310",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "B37M",
+            "B721",
+            "BLCF",
+            "L101"
+        ]
+    },
+    "TAR Aerolineas": {
+        "validAircraft": []
+    },
+    "TAROM": {
+        "validAircraft": []
+    },
+    "TUI Airlines Belgium": {
+        "validAircraft": [
+            "B37M",
+            "B762"
+        ]
+    },
+    "TUIfly": {
+        "validAircraft": [
+            "B37M",
+            "B762"
+        ]
+    },
+    "TUIfly Netherlands": {
+        "validAircraft": []
+    },
+    "TUIfly Nordic": {
+        "validAircraft": [
+            "B37M",
+            "B752",
+            "B762"
+        ]
+    },
+    "TUS Airways": {
+        "validAircraft": []
+    },
+    "Taban Airlines": {
+        "validAircraft": []
+    },
+    "Tarco Air": {
+        "validAircraft": []
+    },
+    "Tassili Airlines": {
+        "validAircraft": []
+    },
+    "Tayaran Jet": {
+        "validAircraft": []
+    },
+    "TezJet": {
+        "validAircraft": []
+    },
+    "Thai AirAsia": {
+        "validAircraft": [
+            "A320",
+            "B37M"
+        ]
+    },
+    "Thai AirAsia X": {
+        "validAircraft": [
+            "A332"
+        ]
+    },
+    "Thai Airways International": {
+        "validAircraft": []
+    },
+    "Thai Lion Air": {
+        "validAircraft": [
+            "B37M"
+        ]
+    },
+    "Thai Vietjet Air": {
+        "validAircraft": []
+    },
+    "Tianjin Airlines": {
+        "validAircraft": [
+            "A320",
+            "A332"
+        ]
+    },
+    "Tibet Airlines": {
+        "validAircraft": []
+    },
+    "Tigerair Taiwan": {
+        "validAircraft": []
+    },
+    "Trade Air": {
+        "validAircraft": []
+    },
+    "Tradewind Aviation": {
+        "validAircraft": []
+    },
+    "Trans Air Congo": {
+        "validAircraft": []
+    },
+    "TransNusa": {
+        "validAircraft": []
+    },
+    "Transavia": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "B37M",
+            "B752"
+        ]
+    },
+    "Transavia France": {
+        "validAircraft": [
+            "A320",
+            "B37M"
+        ]
+    },
+    "Transcarga": {
+        "validAircraft": []
+    },
+    "Transwest Air": {
+        "validAircraft": []
+    },
+    "Trigana Air": {
+        "validAircraft": []
+    },
+    "Tropic Air": {
+        "validAircraft": []
+    },
+    "Tsaradia": {
+        "validAircraft": []
+    },
+    "Tunisair": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A319",
+            "A320",
+            "A332",
+            "B37M",
+            "B721",
+            "BLCF",
+            "DC10",
+            "MD90"
+        ]
+    },
+    "Tunisair Express": {
+        "validAircraft": []
+    },
+    "Turkish Airlines": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A319",
+            "A320",
+            "A321",
+            "A332",
+            "A342",
+            "B37M",
+            "B772",
+            "DC10",
+            "MD90"
+        ]
+    },
+    "Turkmenistan Airlines": {
+        "validAircraft": []
+    },
+    "Turpial Airlines": {
+        "validAircraft": []
+    },
+    "T´Way Air": {
+        "validAircraft": []
+    },
+    "UNI Air": {
+        "validAircraft": []
+    },
+    "US Airways": {
+        "validAircraft": []
+    },
+    "US-Bangla Airlines": {
+        "validAircraft": []
+    },
+    "UTair": {
+        "validAircraft": []
+    },
+    "UTair-Express": {
+        "validAircraft": []
+    },
+    "UVT Aero": {
+        "validAircraft": []
+    },
+    "United Airlines": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A35K",
+            "B37M",
+            "B721",
+            "B752",
+            "B762",
+            "B772",
+            "BLCF",
+            "DC10"
+        ]
+    },
+    "United Caribbean Airlines": {
+        "validAircraft": []
+    },
+    "United Nigeria Airlines": {
+        "validAircraft": []
+    },
+    "Ural Airlines": {
+        "validAircraft": []
+    },
+    "Urumqi Airlines": {
+        "validAircraft": []
+    },
+    "Uzbekistan Airways": {
+        "validAircraft": []
+    },
+    "VECA": {
+        "validAircraft": []
+    },
+    "VIA Rail Canada": {
+        "validAircraft": []
+    },
+    "VLM Airlines": {
+        "validAircraft": []
+    },
+    "Via Air": {
+        "validAircraft": []
+    },
+    "VietJet Air": {
+        "validAircraft": []
+    },
+    "Vietnam Airlines": {
+        "validAircraft": [
+            "A30B",
+            "A310",
+            "A320",
+            "A321",
+            "A332",
+            "B37M",
+            "B762",
+            "B772"
+        ]
+    },
+    "Virgin Atlantic": {
+        "validAircraft": []
+    },
+    "Virgin Australia": {
+        "validAircraft": [
+            "A332",
+            "B37M",
+            "B772"
+        ]
+    },
+    "Vistara": {
+        "validAircraft": []
+    },
+    "VivaAerobus": {
+        "validAircraft": []
+    },
+    "Volaris": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A321"
+        ]
+    },
+    "Volaris Costa Rica": {
+        "validAircraft": []
+    },
+    "Volotea": {
+        "validAircraft": []
+    },
+    "Vueling": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A321"
+        ]
+    },
+    "WOW Air": {
+        "validAircraft": []
+    },
+    "Welcome Air": {
+        "validAircraft": []
+    },
+    "West Air (China)": {
+        "validAircraft": []
+    },
+    "WestJet": {
+        "validAircraft": [
+            "B37M",
+            "B752",
+            "B762"
+        ]
+    },
+    "Westair Aviation": {
+        "validAircraft": []
+    },
+    "Wideroe": {
+        "validAircraft": []
+    },
+    "Winair": {
+        "validAircraft": []
+    },
+    "Wingo": {
+        "validAircraft": []
+    },
+    "Wings Air": {
+        "validAircraft": []
+    },
+    "Wizz Air": {
+        "validAircraft": [
+            "A320",
+            "A321"
+        ]
+    },
+    "Wizz Air Malta": {
+        "validAircraft": []
+    },
+    "Wizz Air UK": {
+        "validAircraft": []
+    },
+    "Xiamen Airlines": {
+        "validAircraft": []
+    },
+    "Xtra Airways": {
+        "validAircraft": []
+    },
+    "Yakutia": {
+        "validAircraft": []
+    },
+    "Yamal Airlines": {
+        "validAircraft": []
+    },
+    "Yemenia": {
+        "validAircraft": []
+    },
+    "Yeti Airlines": {
+        "validAircraft": []
+    },
+    "Yunnan Ying'An Airlines": {
+        "validAircraft": []
+    },
+    "ZanAir": {
+        "validAircraft": []
+    },
+    "Zipair Tokyo": {
+        "validAircraft": []
+    },
+    "Zoom Air": {
+        "validAircraft": []
+    },
+    "easyJet": {
+        "validAircraft": [
+            "A319",
+            "A320",
+            "A321",
+            "B37M",
+            "B752"
+        ]
+    },
+    "flydubai": {
+        "validAircraft": []
+    },
+    "interCaribbean Airways": {
+        "validAircraft": []
+    }
+}

@@ -1,23 +1,33 @@
 # CLI version
 from InquirerPy import inquirer
 import webbrowser
-from core.route_loader import load_routes, build_airport_index, get_airport_choices, extract_iata, AIRLINE_FILES
+from core.route_loader import load_routes, build_airport_index, get_airport_choices, extract_iata, get_airline_files, get_all_aircraft, get_airline_aircraft
 from core.logic import generate_random_route, build_simbrief_url
 
 
 def run_cli():
     while True:
-        airline = inquirer.select(
+        airline = inquirer.fuzzy(
             message="Select airline:",
-            choices=list(AIRLINE_FILES.keys())
+            choices=list(get_airline_files().keys())
         ).execute()
 
         routes = load_routes(airline)
         airport_index = build_airport_index(routes)
 
+        airline_aircraft = get_airline_aircraft(airline)
+        all_aircraft = get_all_aircraft()
+        
+        if airline_aircraft:
+            aircraft_choices = [ac['icao'] for ac in all_aircraft if ac['icao'] in airline_aircraft]
+        else:
+            aircraft_choices = [ac['icao'] for ac in all_aircraft]
+        
+        if not aircraft_choices:
+            aircraft_choices = ["A320N", "A388"]
         aircraft = inquirer.select(
             message="Select aircraft:",
-            choices=["A320N", "A388"]
+            choices=aircraft_choices
         ).execute()
 
         origin_choice = inquirer.fuzzy(
@@ -34,10 +44,10 @@ def run_cli():
         ).execute()
         max_time = int(max_time) if max_time else None
 
-        route = generate_random_route(routes, origin_iata, aircraft, max_time)
+        route = generate_random_route(routes, origin_iata, aircraft, airline, max_time)
 
         if not route:
-            print("\n❌ No valid routes found with current filters.")
+            print("\nNo valid routes found with current filters.")
             return
 
         print("\n✈️  Random Route Found\n")

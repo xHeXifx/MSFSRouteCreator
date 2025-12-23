@@ -1,107 +1,55 @@
 import random
+import json
+import os
+from core.route_loader import airline_supports_aircraft
+
+_flight_number_config = None
+
+def _load_flight_number_config():
+    global _flight_number_config
+    if _flight_number_config is None:
+        config_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'config', 'flight_numbers.json')
+        with open(config_path, 'r', encoding='utf-8') as f:
+            _flight_number_config = json.load(f)
+    return _flight_number_config
 
 
 def genFlightNum(airline, departure_icao):
     airline = airline.strip().lower()
     departure_icao = departure_icao.strip().upper()
+    
+    config = _load_flight_number_config()
 
-    if airline == 'british airways':
-        prefix = "BAW"
-        if departure_icao == 'EGLL':  # Heathrow
-            flight_no = random.randint(1, 999)
-        elif departure_icao == 'EGKK':  # Gatwick
-            flight_no = random.randint(2000, 2899)
-        elif departure_icao in ['EGLC', 'EGHQ']:
-            flight_no = random.randint(3000, 4500)
-        else:
-            flight_no = random.randint(1300, 1499)
-
-    elif airline == 'easyjet':
-        prefix = "EZY"
-        if departure_icao == 'EGKK':  # Gatwick
-            flight_no = random.choice([random.randint(6000, 6999), random.randint(8000, 8999)])
-        elif departure_icao == 'EGGW':  # Luton
-            flight_no = random.randint(1, 1999)
-        elif departure_icao == 'EGSS':  # Stansted
-            flight_no = random.randint(3000, 3999)
-        else:
-            flight_no = random.randint(7000, 7999)
-
-    elif airline == 'ryanair':
-        prefix = "RYR"
-        if departure_icao == 'EGSS':  # Stansted
-            flight_no = random.randint(1000, 1999)
-        elif departure_icao == 'EGGW':  # Luton
-            flight_no = random.randint(2000, 2999)
-        elif departure_icao == 'EGMC':  # Manchester
-            flight_no = random.randint(3000, 3999)
-        else:
-            flight_no = random.randint(4000, 4999)
-
-    elif airline == 'emirates':
-        prefix = "UAE"
-        if departure_icao == 'OMDB':  # Dubai
-            flight_no = random.randint(1, 9999)
-        elif departure_icao in ['OMAA', 'OMRK']:  # Abu Dhabi / Ras Al Khaimah
-            flight_no = random.randint(2000, 3999)
-        elif departure_icao in ['EGLL', 'LFPG', 'EDDF']:  # Major European destinations
-            flight_no = random.randint(100, 999)
-        elif departure_icao in ['KJFK', 'KLAX', 'CYYZ']:  # North America
-            flight_no = random.randint(100, 499)
-        else:
-            flight_no = random.randint(500, 9999)
-
-    elif airline == 'lufthansa':
-        prefix = "DLH"
-        if departure_icao == 'EDDF':  # Frankfurt hub
-            flight_no = random.randint(1, 4999)
-        elif departure_icao == 'EDDM':  # Munich hub
-            flight_no = random.randint(100, 3999)
-        elif departure_icao in ['EDDS', 'EDDH']:  # Stuttgart / Hamburg
-            flight_no = random.randint(100, 1999)
-        else:  # Other airports
-            flight_no = random.randint(500, 4999)
-
-    elif airline == 'singapore airlines':
-        prefix = "SIA"
-        if departure_icao == 'WSSS':  # Singapore Changi
-            flight_no = random.randint(1, 9999)
-        elif departure_icao in ['WMKK', 'WADD']:  # Kuala Lumpur / Bali
-            flight_no = random.randint(100, 999)
-        elif departure_icao in ['RJTT', 'KLAX', 'EGLL']:  # Major international routes
-            flight_no = random.randint(1000, 4999)
-        else:
-            flight_no = random.randint(500, 4999)
-
-    elif airline == 'qatar_airways':
-        prefix = "QTR"
-        if departure_icao == 'OTHH':  # Doha
-            flight_no = random.randint(1, 4999)
-        elif departure_icao in ['OMDB', 'OOMS']:  # UAE / Middle East
-            flight_no = random.randint(100, 999)
-        elif departure_icao in ['KJFK', 'EGLL', 'EDDF']:  # Major international routes
-            flight_no = random.randint(1000, 3999)
-        else:
-            flight_no = random.randint(500, 3999)
-
-
-    else:
+    if airline not in config:
         return "Unknown Airline"
-
+    
+    airline_config = config[airline]
+    prefix = airline_config["prefix"]
+    
+    if departure_icao in airline_config["icao_ranges"]:
+        range_data = airline_config["icao_ranges"][departure_icao]
+        
+        if isinstance(range_data[0], list):
+            selected_range = random.choice(range_data)
+            flight_no = random.randint(selected_range[0], selected_range[1])
+        else:
+            flight_no = random.randint(range_data[0], range_data[1])
+    else:
+        default_range = airline_config["default_range"]
+        flight_no = random.randint(default_range[0], default_range[1])
+    
     return [prefix, flight_no]
 
 
-def filter_routes(routes, origin_iata, aircraft, max_time=None):
+def filter_routes(routes, origin_iata, aircraft, airline_name, max_time=None):
     filtered = []
 
     for r in routes:
         if r["from"] != origin_iata:
             continue
 
-        if aircraft == "A320N" and not r["supports_a320"]:
-            continue
-
-        if aircraft == "A388" and not r["supports_a380"]:
+        support_key = f"supports_{aircraft.lower()}"
+        if support_key in r and not r[support_key]:
             continue
 
         if max_time and r["estimated_time_min"] > max_time:
@@ -112,8 +60,8 @@ def filter_routes(routes, origin_iata, aircraft, max_time=None):
     return filtered
 
 
-def generate_random_route(routes, origin_iata, aircraft, max_time=None):
-    filtered = filter_routes(routes, origin_iata, aircraft, max_time)
+def generate_random_route(routes, origin_iata, aircraft, airline_name, max_time=None):
+    filtered = filter_routes(routes, origin_iata, aircraft, airline_name, max_time)
     
     if not filtered:
         return None

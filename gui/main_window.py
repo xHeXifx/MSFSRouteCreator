@@ -97,17 +97,29 @@ class MainWindow(QMainWindow):
         departure_text = self.top_left.get_departure_airport()
         max_time = self.top_left.get_max_time()
 
-        try:
-            origin_iata = extract_iata(departure_text)
-        except:
-            QMessageBox.warning(
-                self,
-                "Invalid Input",
-                "Please select a valid departure airport from the list"
-            )
-            return
+        if not departure_text:
+            import random
+            departure_airports = list(set(r['from'] for r in self.routes))
+            if not departure_airports:
+                QMessageBox.warning(
+                    self,
+                    "No Routes Available",
+                    "No routes available for this airline."
+                )
+                return
+            origin_iata = random.choice(departure_airports)
+        else:
+            try:
+                origin_iata = extract_iata(departure_text)
+            except:
+                QMessageBox.warning(
+                    self,
+                    "Invalid Input",
+                    "Please select a valid departure airport from the list"
+                )
+                return
         
-        route = generate_random_route(self.routes, origin_iata, aircraft, max_time)
+        route = generate_random_route(self.routes, origin_iata, aircraft, airline, max_time)
         
         if not route:
             QMessageBox.information(

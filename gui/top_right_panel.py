@@ -2,6 +2,17 @@ from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QPixmap, QIcon
 import os
+import json
+
+_airline_logos = None
+
+def _load_airline_logos():
+    global _airline_logos
+    if _airline_logos is None:
+        config_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'config', 'airline_logos.json')
+        with open(config_path, 'r', encoding='utf-8') as f:
+            _airline_logos = json.load(f)
+    return _airline_logos
 
 
 class TopRightPanel(QWidget):
@@ -37,15 +48,7 @@ class TopRightPanel(QWidget):
             self.show_no_selection()
             return
         
-        logo_map = {
-            "British Airways": "British Airways.png",
-            "easyJet": "easyJet.png",
-            "Ryanair": "Ryanair.jpg",
-            "Emirates": "Emirates.png",
-            "Lufthansa": "Lufthansa.png",
-            "Singapore Airlines": "Singapore Airlines.png",
-            "Qatar Airways": "Qatar Airways.jpg"
-        }
+        logo_map = _load_airline_logos()
         
         logo_filename = logo_map.get(airline_name)
         if not logo_filename:

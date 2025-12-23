@@ -1,0 +1,4258 @@
+{
+  "40-mile air": {
+    "prefix": "MLA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "ais airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "ana": {
+    "prefix": "AAM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "apg airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "asky airlines": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "asl airlines france": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "avianca": {
+    "prefix": "AVA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "azal azerbaijan airlines": {
+    "prefix": "AHY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "advanced air": {
+    "prefix": "ADD",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aegean airlines": {
+    "prefix": "AEE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aer lingus": {
+    "prefix": "EIN",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aero asia international": {
+    "prefix": "RSO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aero mongolia": {
+    "prefix": "MNG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aero vip": {
+    "prefix": "AOG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aeroitalia": {
+    "prefix": "ROO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aeroflot": {
+    "prefix": "AFL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aerolineas argentinas": {
+    "prefix": "ARG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aerolineas mas": {
+    "prefix": "MSO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aerolink uganda": {
+    "prefix": "MSO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aerov\u00edas dap": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "africa world airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "afrijet": {
+    "prefix": "FRJ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "afriqiyah airways": {
+    "prefix": "AAW",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air albania": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air algerie": {
+    "prefix": "DAH",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air alsie": {
+    "prefix": "MMD",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air arabia": {
+    "prefix": "ABY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air arabia abu dhabi": {
+    "prefix": "ABY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air arabia egypt": {
+    "prefix": "RBG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air arabia jordan": {
+    "prefix": "ABY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air arabia maroc": {
+    "prefix": "ABY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air astana": {
+    "prefix": "KZR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air austral": {
+    "prefix": "REU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air baltic": {
+    "prefix": "BTI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air botswana": {
+    "prefix": "BOT",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air burkina": {
+    "prefix": "VBW",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air busan": {
+    "prefix": "ABL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air cairo": {
+    "prefix": "MSC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air caledonie": {
+    "prefix": "ACI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air canada": {
+    "prefix": "ACA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air caraibes": {
+    "prefix": "CAJ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air central": {
+    "prefix": "CRF",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air chathams": {
+    "prefix": "CVA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air china": {
+    "prefix": "CCA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air creebec": {
+    "prefix": "CRQ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air dolomiti": {
+    "prefix": "DLA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air europa": {
+    "prefix": "AEA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air france": {
+    "prefix": "AFR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air guilin": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air india": {
+    "prefix": "AIC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air india express": {
+    "prefix": "AXB",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air inuit": {
+    "prefix": "AIE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air japan": {
+    "prefix": "AJX",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air kbz": {
+    "prefix": "KBZ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air kiribati": {
+    "prefix": "AKL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air koryo": {
+    "prefix": "KOR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air leap": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air liaison": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air link": {
+    "prefix": "AFK",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air macau": {
+    "prefix": "AMU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air madagascar": {
+    "prefix": "MDG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air malta": {
+    "prefix": "AMC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air mauritius": {
+    "prefix": "MAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air midwest": {
+    "prefix": "VTY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air new zealand": {
+    "prefix": "ANZ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air niugini": {
+    "prefix": "ANG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air north": {
+    "prefix": "ANT",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air philip": {
+    "prefix": "GAP",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air rarotonga": {
+    "prefix": "RAR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air saint pierre": {
+    "prefix": "SPM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air senegal": {
+    "prefix": "SNG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air seoul": {
+    "prefix": "EQL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air serbia": {
+    "prefix": "ASL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air seychelles": {
+    "prefix": "SEY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air southwest": {
+    "prefix": "WOW",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air tahiti": {
+    "prefix": "VTA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air tahiti nui": {
+    "prefix": "THT",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air tanzania": {
+    "prefix": "ATC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air transat": {
+    "prefix": "TSC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air vanuatu": {
+    "prefix": "AVN",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "air zimbabwe": {
+    "prefix": "AZW",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "airasia": {
+    "prefix": "AXM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "airasia india": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "airasia japan": {
+    "prefix": "WAJ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "airasia x": {
+    "prefix": "XAX",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "airglow aviation services": {
+    "prefix": "AVQ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "airkenya express": {
+    "prefix": "XAK",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "airblue": {
+    "prefix": "ABQ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "airbus transport international": {
+    "prefix": "BGA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aircalin": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "airlink (south africa)": {
+    "prefix": "LNK",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "airnorth": {
+    "prefix": "ANO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "almasria": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "alaska airlines": {
+    "prefix": "ASA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "alaska seaplanes": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "albastar": {
+    "prefix": "LAV",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "alexandria airlines": {
+    "prefix": "KHH",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "allegiant air": {
+    "prefix": "AAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "alliance air": {
+    "prefix": "LLR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "alliance airlines": {
+    "prefix": "UTY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "amakusa airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "amapola flyg": {
+    "prefix": "APF",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "american airlines": {
+    "prefix": "AAL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "anguilla air services": {
+    "prefix": "EQL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "apex airline": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "apsara international": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "ariana afghan airlines": {
+    "prefix": "AFG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "arik air": {
+    "prefix": "ARA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "arkia israeli airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "armenia airways": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "asia atlantic airlines": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "asian air": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "asiana airlines": {
+    "prefix": "AAR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "astra airlines": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "astral aviation": {
+    "prefix": "ACP",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "atlantic airways": {
+    "prefix": "FLI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "atlantique air": {
+    "prefix": "TLB",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "atlasglobal": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aurigny air services": {
+    "prefix": "AUR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aurora": {
+    "prefix": "AAI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "austral": {
+    "prefix": "AAA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "austrian": {
+    "prefix": "AUA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "avia traffic company": {
+    "prefix": "AVJ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "aviair": {
+    "prefix": "AVF",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "avior": {
+    "prefix": "ROI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "azimuth airlines": {
+    "prefix": "AZT",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "azores airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "azul": {
+    "prefix": "AZU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "badr airlines": {
+    "prefix": "BDR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "bahamasair": {
+    "prefix": "BHS",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "bamboo airways": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "bangkok airways": {
+    "prefix": "BKP",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "batik air malaysia": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "bearskin airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "beijing capital airlines": {
+    "prefix": "CPD",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "belavia": {
+    "prefix": "BRU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "bhutan airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "biman bangladesh airlines": {
+    "prefix": "BBC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "binter canarias": {
+    "prefix": "IBB",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "blue islands": {
+    "prefix": "BCI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "blue panorama airlines": {
+    "prefix": "BPA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "boa": {
+    "prefix": "CBT",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "boutique air": {
+    "prefix": "BTQ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "braathens regional": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "braathens regional airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "breeze airways": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "bristow": {
+    "prefix": "BHL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "british airways": {
+    "prefix": "BAW",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "brussels airlines": {
+    "prefix": "DAT",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "buddha air": {
+    "prefix": "BHA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "bulgaria air": {
+    "prefix": "LZB",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "buraq air": {
+    "prefix": "BRQ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "ceiba intercontinental": {
+    "prefix": "CEL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "cm airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "csa": {
+    "prefix": "PYC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "caicos express airways": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "california pacific airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "calm air international": {
+    "prefix": "CAV",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "cambodia angkor air": {
+    "prefix": "VAV",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "canjet airlines": {
+    "prefix": "CJA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "canadian north": {
+    "prefix": "MPE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "cape air": {
+    "prefix": "KAP",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "caribbean airlines": {
+    "prefix": "BWA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "cathay pacific": {
+    "prefix": "CPA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "cayman airways": {
+    "prefix": "CAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "cebu pacific air": {
+    "prefix": "CEB",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "chalair": {
+    "prefix": "CLG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "charlie airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "chengdu airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "china airlines": {
+    "prefix": "CAL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "china eastern airlines": {
+    "prefix": "CES",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "china southern airlines": {
+    "prefix": "CSN",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "china united airlines": {
+    "prefix": "CUA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "chongqing airlines": {
+    "prefix": "CQN",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "cimber as": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "citilink": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "coastal aviation": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "colorful guizhou airlines": {
+    "prefix": "CGH",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "condor": {
+    "prefix": "CIB",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "conviasa": {
+    "prefix": "VCV",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "copa airlines": {
+    "prefix": "CMP",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "corendon airlines": {
+    "prefix": "CAI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "corendon airlines europe": {
+    "prefix": "CAI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "corendon dutch airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "corsair": {
+    "prefix": "CRL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "croatia airlines": {
+    "prefix": "CTN",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "daallo airlines": {
+    "prefix": "DAO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "danish air": {
+    "prefix": "DTR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "dart airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "delta air lines": {
+    "prefix": "DAL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "discover airlines": {
+    "prefix": "DCV",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "donghai airlines": {
+    "prefix": "EPA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "eva air": {
+    "prefix": "EVA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "ewa air": {
+    "prefix": "CPW",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "eastar jet": {
+    "prefix": "ESR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "eastern airways": {
+    "prefix": "EZE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "easy fly express": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "easyfly": {
+    "prefix": "EFY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "edelweiss air": {
+    "prefix": "EDW",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "egyptair": {
+    "prefix": "MSR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "el al": {
+    "prefix": "ELY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "emirates": {
+    "prefix": "UAE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "ethiopian airlines": {
+    "prefix": "ETH",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "etihad airways": {
+    "prefix": "ETD",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "euroatlantic airways": {
+    "prefix": "MMZ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "eurowings": {
+    "prefix": "EWG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "evelop airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "eznis airways": {
+    "prefix": "EZA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "fastjet": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "felix airways": {
+    "prefix": "FXX",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "fiji airways": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "finnair": {
+    "prefix": "FIN",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "firefly": {
+    "prefix": "FFM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "flair airlines": {
+    "prefix": "FLE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "fly all ways": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "fly angola": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "fly baghdad": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "fly one": {
+    "prefix": "FI5",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "flyegypt": {
+    "prefix": "FEG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "flypelican": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "flyviking": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "flyadeal": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "flyest lineas aereas": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "flyme": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "flynas": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "freebird airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "frontier airlines": {
+    "prefix": "FFT",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "fuji dream airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "fuzhou airlines": {
+    "prefix": "FZA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "garuda indonesia": {
+    "prefix": "GIA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "gazpromavia": {
+    "prefix": "GZP",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "genghis khan airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "georgian airways": {
+    "prefix": "TGZ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "germania": {
+    "prefix": "GMI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "gestair": {
+    "prefix": "GES",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "global aviation": {
+    "prefix": "GBB",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "global jet": {
+    "prefix": "GLJ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "gol": {
+    "prefix": "NGO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "grand china air": {
+    "prefix": "GDC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "groupe transair": {
+    "prefix": "TTZ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "guangxi beibu gulf airlines": {
+    "prefix": "GFA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "gulf air": {
+    "prefix": "GFA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "hop!-regional": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "hainan airlines": {
+    "prefix": "CHH",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "hawaiian airlines": {
+    "prefix": "HAL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "hebei airlines": {
+    "prefix": "HBH",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "hex'air": {
+    "prefix": "HER",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "himalaya airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "hinterland aviation": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "hong kong airlines": {
+    "prefix": "CRK",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "hongtu airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "i-fly": {
+    "prefix": "RSY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "ita airways": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "iberia": {
+    "prefix": "IBE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "iberia express": {
+    "prefix": "IBS",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "icelandair": {
+    "prefix": "ICE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "iliamna air taxi": {
+    "prefix": "IAR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "indigo": {
+    "prefix": "IBU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "indian airlines": {
+    "prefix": "IAC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "indonesia airasia": {
+    "prefix": "AWQ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "inselair aruba": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "inter iles air": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "intercontinental airways (gambia)": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "interjet": {
+    "prefix": "MTF",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "iran air": {
+    "prefix": "IRA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "iran airtour": {
+    "prefix": "IRA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "iran aseman airlines": {
+    "prefix": "IRC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "iraqi airways": {
+    "prefix": "IAW",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "island air service": {
+    "prefix": "EQL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "izhavia (duplicate)": {
+    "prefix": "IZA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "jal": {
+    "prefix": "JAD",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "jambojet limited": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "japan transocean air": {
+    "prefix": "JTA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "jazeera airways": {
+    "prefix": "JZR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "jeju air": {
+    "prefix": "JJA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "jet2": {
+    "prefix": "EXS",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "jetblue airways": {
+    "prefix": "JBU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "jetstar": {
+    "prefix": "JSA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "jetstar asia": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "jetstar japan": {
+    "prefix": "JJP",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "jiangxi airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "jin air": {
+    "prefix": "JNA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "jordan aviation": {
+    "prefix": "JAV",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "joy air": {
+    "prefix": "JOY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "juneyao airlines": {
+    "prefix": "DKH",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "klm": {
+    "prefix": "KLC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "kam air": {
+    "prefix": "KMF",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "kenmore air": {
+    "prefix": "KEN",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "kenn borek air": {
+    "prefix": "KBA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "kenya airways": {
+    "prefix": "KQA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "key lime air": {
+    "prefix": "LYM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "korean air": {
+    "prefix": "KAL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "krasavia": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "kunming airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "kuwait airways": {
+    "prefix": "KAC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "kuwait national airways": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "lam": {
+    "prefix": "AVD",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "laser airlines": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "latam airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "latam airlines argentina": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "lgw": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "lj air": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "lot - polish airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "la compagnie": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "lao airlines": {
+    "prefix": "LAO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "lao skyway": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "libyan airlines": {
+    "prefix": "LYW",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "libyan wings": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "linea aerea eco": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "link airways": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "lion air": {
+    "prefix": "WGT",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "loganair": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "loong air": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "lucky air": {
+    "prefix": "LKE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "lufthansa": {
+    "prefix": "DLH",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "lulutai airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "luxair": {
+    "prefix": "LGL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "lviv airlines": {
+    "prefix": "UKW",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "mayair": {
+    "prefix": "MYI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "mahan air": {
+    "prefix": "IRM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "malaysia airlines": {
+    "prefix": "MAS",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "maldivian": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "mandarin airlines": {
+    "prefix": "MDA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "mann yadanarpon airlines": {
+    "prefix": "MYP",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "mauritania airlines international": {
+    "prefix": "MAI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "maya island air": {
+    "prefix": "MYD",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "med view airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "mexicana de aviaci\u00f3n": {
+    "prefix": "MXA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "miat - mongolian airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "middle east airlines": {
+    "prefix": "MEA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "mount cook airlines": {
+    "prefix": "NZM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "murray air": {
+    "prefix": "MUA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "myanmar airways international": {
+    "prefix": "MMM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "myanmar national airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "myway airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "nam air": {
+    "prefix": "SLM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "neos": {
+    "prefix": "NOS",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "nepal airlines": {
+    "prefix": "RNA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "newgen airways": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "nextjet": {
+    "prefix": "NTJ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "niger airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "nile air": {
+    "prefix": "NIA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "nok air": {
+    "prefix": "NOK",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "nordstar airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "nordavia regional airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "nordwind airlines": {
+    "prefix": "NWS",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "norse": {
+    "prefix": "NRX",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "north-wright airways": {
+    "prefix": "NWL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "norwegian air": {
+    "prefix": "NAX",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "norwegian air intl": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "nouvelair tunisie": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "okay airways": {
+    "prefix": "OKA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "olympic air": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "oman air": {
+    "prefix": "OMA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "orange2fly": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "overland airways": {
+    "prefix": "OLA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "pal aerospace": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "pacific coastal airlines": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "pakistan international airlines": {
+    "prefix": "PIA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "pamir air": {
+    "prefix": "PIR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "papillon airways": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "paradise air": {
+    "prefix": "PAI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "pascan aviation": {
+    "prefix": "PSC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "passaredo": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "passion air": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "pegas fly": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "pegasus": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "peoples viennaline": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "perimeter aviation": {
+    "prefix": "PAG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "philippine airlines": {
+    "prefix": "PAL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "philippines airasia": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "plus ultra": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "pobeda": {
+    "prefix": "PBD",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "polar airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "polynesian airline of samoa": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "porter airlines": {
+    "prefix": "POE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "precision air": {
+    "prefix": "PRF",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "primera air scandinavia": {
+    "prefix": "EQL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "proflight zambia": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "qantas": {
+    "prefix": "QFA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "qatar airways": {
+    "prefix": "QTR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "qeshm air": {
+    "prefix": "IRQ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "qingdao airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "ravn alaska": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "real tonga": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "red wings": {
+    "prefix": "RWZ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "regional air": {
+    "prefix": "RIL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "rex regional express": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "royal air charter": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "royal air maroc": {
+    "prefix": "RAM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "royal brunei airlines": {
+    "prefix": "RBA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "royal jordanian": {
+    "prefix": "RJA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "ruili airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "rusline (duplicate)": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "rutaca airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "rwandair": {
+    "prefix": "RWD",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "ryanair": {
+    "prefix": "RYR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "ryanair uk": {
+    "prefix": "RYR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "s7 airlines": {
+    "prefix": "SBI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sansa regional": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "satena": {
+    "prefix": "NSE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "scat airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "swiss": {
+    "prefix": "HSI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "safair": {
+    "prefix": "SFR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "safarilink": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "safe air company": {
+    "prefix": "SFP",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "saint barth commuter": {
+    "prefix": "SBU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "salam air": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "scandinavian airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "scenic airlines": {
+    "prefix": "SCE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "scoot": {
+    "prefix": "SCO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "seaborne airlines": {
+    "prefix": "SBS",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "severstal aircompany": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "shandong airlines": {
+    "prefix": "CDG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "shanghai airlines": {
+    "prefix": "CSH",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sharp airlines": {
+    "prefix": "SHA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "shenzhen airlines": {
+    "prefix": "CSZ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "shree airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "shuttle america": {
+    "prefix": "TCF",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sichuan airlines": {
+    "prefix": "CSC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "silk way airlines": {
+    "prefix": "AZQ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "silver airways": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "singapore airlines": {
+    "prefix": "SIA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sky airline": {
+    "prefix": "SKU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sky airlines": {
+    "prefix": "SHY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sky alps": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sky angkor": {
+    "prefix": "SWM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sky express": {
+    "prefix": "SXR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sky high aviation services": {
+    "prefix": "AVQ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "skygreece airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "skymark airlines": {
+    "prefix": "SKY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "skypower express airways": {
+    "prefix": "EAN",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "skytrans airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "solomon airlines": {
+    "prefix": "SOL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "south african airways": {
+    "prefix": "SAA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "southern airways express": {
+    "prefix": "LTD",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "southwest airlines": {
+    "prefix": "SWA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "spicejet": {
+    "prefix": "SEJ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "spirit airlines": {
+    "prefix": "NKS",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "spring airlines": {
+    "prefix": "CQH",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "spring airlines japan": {
+    "prefix": "SJO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "srilankan airlines": {
+    "prefix": "ALK",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sriwijaya air": {
+    "prefix": "SJY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "star air": {
+    "prefix": "ASG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "starlux airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sun country airlines": {
+    "prefix": "SCX",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sunexpress": {
+    "prefix": "SXS",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sunrise airways": {
+    "prefix": "KSZ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "sunwing airlines": {
+    "prefix": "SWG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "suparna airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "surinam airways": {
+    "prefix": "SLM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "swissair": {
+    "prefix": "SWR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "taag": {
+    "prefix": "DTA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tab": {
+    "prefix": "SBO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tacv": {
+    "prefix": "TCV",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tag": {
+    "prefix": "AGH",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tap portugal": {
+    "prefix": "TAP",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tar aerolineas": {
+    "prefix": "MSO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tarom": {
+    "prefix": "ROT",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tui airlines belgium": {
+    "prefix": "TUB",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tuifly": {
+    "prefix": "HLX",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tuifly netherlands": {
+    "prefix": "HLX",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tuifly nordic": {
+    "prefix": "BLX",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tus airways": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "taban airlines": {
+    "prefix": "ABE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tarco air": {
+    "prefix": "OCN",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tassili airlines": {
+    "prefix": "DTH",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "thai airasia": {
+    "prefix": "AIQ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "thai airasia x": {
+    "prefix": "AOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "thai airways international": {
+    "prefix": "THA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "thai lion air": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "thai vietjet air": {
+    "prefix": "TVJ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tianjin airlines": {
+    "prefix": "GCR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tibet airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "trade air": {
+    "prefix": "TDR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tradewind aviation": {
+    "prefix": "GPD",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "trans air congo": {
+    "prefix": "MUI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "transnusa": {
+    "prefix": "TNU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "transavia": {
+    "prefix": "TRA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "transavia france": {
+    "prefix": "TVF",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "transcarga": {
+    "prefix": "TIW",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "transwest air": {
+    "prefix": "ABS",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "trigana air": {
+    "prefix": "TGN",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tropic air": {
+    "prefix": "TOS",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tunisair": {
+    "prefix": "TAR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "tunisair express": {
+    "prefix": "AXD",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "turkish airlines": {
+    "prefix": "THY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "turkmenistan airlines": {
+    "prefix": "TUA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "turpial airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "uni air": {
+    "prefix": "UIA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "us airways": {
+    "prefix": "USA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "us-bangla airlines": {
+    "prefix": "UBG",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "utair": {
+    "prefix": "UCA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "united airlines": {
+    "prefix": "UAL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "united caribbean airlines": {
+    "prefix": "BWA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "united nigeria airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "ural airlines": {
+    "prefix": "SVR",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "urumqi airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "uzbekistan airways": {
+    "prefix": "UZB",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "via rail canada": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "vlm airlines": {
+    "prefix": "VLM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "via air": {
+    "prefix": "UVT",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "vietjet air": {
+    "prefix": "VJC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "vietnam airlines": {
+    "prefix": "HVN",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "virgin atlantic": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "virgin australia": {
+    "prefix": "VOZ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "vistara": {
+    "prefix": "VTI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "volaris": {
+    "prefix": "VOI",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "volaris costa rica": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "volotea": {
+    "prefix": "VOO",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "vueling": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "welcome air": {
+    "prefix": "WLC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "westjet": {
+    "prefix": "WJA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "westair aviation": {
+    "prefix": "WAA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "winair": {
+    "prefix": "WNA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "wings air": {
+    "prefix": "WON",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "wizz air": {
+    "prefix": "WZZ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "wizz air malta": {
+    "prefix": "AMC",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "wizz air uk": {
+    "prefix": "WZZ",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "xiamen airlines": {
+    "prefix": "CXA",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "xtra airways": {
+    "prefix": "CXP",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "yakutia": {
+    "prefix": "SYL",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "yamal airlines": {
+    "prefix": "LLM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "yemenia": {
+    "prefix": "IYE",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "yeti airlines": {
+    "prefix": "NYT",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "yunnan ying'an airlines": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "zanair": {
+    "prefix": "TAN",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "zipair tokyo": {
+    "prefix": "WZP",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "zoom air": {
+    "prefix": "OOM",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "easyjet": {
+    "prefix": "EZY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "flydubai": {
+    "prefix": "LAU",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  },
+  "intercaribbean airways": {
+    "prefix": "WAY",
+    "icao_ranges": {},
+    "default_range": [
+      1000,
+      9999
+    ]
+  }
+}
