@@ -8,8 +8,10 @@ from gui.top_right_panel import TopRightPanel
 from gui.bottom_left_panel import BottomLeftPanel
 from gui.bottom_right_panel import BottomRightPanel
 from gui.verification_panel import VerificationPanel
-from core.route_loader import load_routes, build_airport_index, get_airport_choices, extract_iata, get_airline_files
-from core.logic import generate_random_route, build_simbrief_url, format_route_details, verify_route
+from gui.airline_generator_panel import AirlineGeneratorPanel
+from gui.flight_summary_panel import FlightSummaryPanel
+from core.route_loader import load_routes, load_airline_data, build_airport_index, get_airport_choices, extract_iata, get_airline_files
+from core.logic import generate_random_route, build_simbrief_url, format_route_details, verify_route, genFlightNum
 
 
 class MainWindow(QMainWindow):
@@ -18,6 +20,7 @@ class MainWindow(QMainWindow):
         self.current_route = None
         self.current_airline = None
         self.current_aircraft = None
+        self.current_airline_data = None
         self.routes = []
         self.init_ui()
         self.load_initial_data()
@@ -56,19 +59,22 @@ class MainWindow(QMainWindow):
         generator_layout.addLayout(bottom_layout, stretch=1)
         generator_tab.setLayout(generator_layout)
         
-        # Create Verification tab
         self.verification_panel = VerificationPanel()
         
-        # Add tabs
+        self.airline_generator_panel = AirlineGeneratorPanel()
+
+        self.flight_summary_panel = FlightSummaryPanel()
+        
         self.tab_widget.addTab(generator_tab, "Route Generator")
         self.tab_widget.addTab(self.verification_panel, "Route Verifier")
+        self.tab_widget.addTab(self.airline_generator_panel, "Airline Finder")
+        self.tab_widget.addTab(self.flight_summary_panel, "Flight Summary")
         
         main_layout.addWidget(self.tab_widget)
         
         central_widget.setLayout(main_layout)
         self.setCentralWidget(central_widget)
-        
-        # Connect signals
+
         self.top_left.airline_changed.connect(self.on_airline_changed)
         self.bottom_right.generate_clicked.connect(self.on_generate_clicked)
         self.bottom_right.simbrief_clicked.connect(self.on_simbrief_clicked)
@@ -84,7 +90,8 @@ class MainWindow(QMainWindow):
             return
         
         try:
-            self.routes = load_routes(airline_name)
+            self.current_airline_data = load_airline_data(airline_name)
+            self.routes = self.current_airline_data["routes"]
             airport_index = build_airport_index(self.routes)
             airport_choices = get_airport_choices(airport_index)
             self.top_left.set_airport_choices(airport_choices)
@@ -162,6 +169,37 @@ class MainWindow(QMainWindow):
     def on_simbrief_clicked(self):
         if not self.current_route:
             return
+        
+        flight_ident = genFlightNum(self.current_airline, self.current_route.get('from_icao'))
+        flight_number = f"{flight_ident[0]} {flight_ident[1]}"
+        
+        callsign = ""
+        if self.current_airline_data:
+            callsign = self.current_airline_data.get('callsign', '')
+        
+        time_str = ""
+        if "estimated_time" in self.current_route:
+            t = self.current_route["estimated_time"]
+            time_str = f"{t['hours']}h {t['minutes']}m"
+        else:
+            time_str = f"{self.current_route['estimated_time_min']} min"
+        
+        flight_data = {
+            'airline': self.current_airline,
+            'callsign': callsign,
+            'aircraft': self.current_aircraft,
+            'flight_number': flight_number,
+            'departure_icao': self.current_route.get('from_icao', ''),
+            'departure_name': self.current_route.get('from_name', ''),
+            'arrival_icao': self.current_route.get('to_icao', ''),
+            'arrival_name': self.current_route.get('to_name', ''),
+            'distance': f"{self.current_route['distance_km']} km",
+            'time': time_str
+        }
+        
+        self.flight_summary_panel.update_flight_summary(flight_data, from_simbrief=False)
+        
+        self.tab_widget.setCurrentWidget(self.flight_summary_panel)
         
         url = build_simbrief_url(
             self.current_airline,

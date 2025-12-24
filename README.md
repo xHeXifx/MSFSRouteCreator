@@ -44,6 +44,13 @@ Run the application without arguments to launch the GUI:
 ```bash
 python main.py
 ```
+
+The GUI includes four main tabs:
+- **Route Generator**: Generate random realistic flight routes
+- **Route Verifier**: Verify route availability for specific airports
+- **Airline Finder**: Search for airlines that fly specific routes with specific aircraft
+- **Flight Summary**: View flight details including VATSIM controller information
+
 ### CLI Mode
 
 Run with the `-cli` flag for the original command-line interface:
@@ -94,6 +101,8 @@ As mentioned this will be more difficult so best of luck.
 - Real world fleet applies, airlines which dont fly the A380 wont return any valid flights when selecting the A380.
 - The majority of flight numbers will be invalid in a real world scenario, theres like 600 airlines and finding logic for them would be hell.
 - I do plan on adding more aircraft, i mainly use the A320N and the A380 so haven't added more.
+- VATSIM controller data is fetched in real-time but may be inaccurate. Always verify on [vatsim-radar](https://vatsim-radar.com/) for the most up to date information.
+- The Airline Finder uses fuzzy matching for ICAO codes, making it easier to search even with minor typos.
 
 
 ## Data Structure
@@ -101,7 +110,7 @@ As mentioned this will be more difficult so best of luck.
 The project is now modular with clear separation:
 
 - `core/`: Core logic
-  - `route_loader.py`: Route data loading and airport indexing
+  - `route_loader.py`: Route data loading, airport indexing, and airline data access
   - `logic.py`: Flight number generation, route filtering, SimBrief URLs
   - `cli.py`: CLI interface implementation
 - `gui/`: GUI components
@@ -110,8 +119,15 @@ The project is now modular with clear separation:
   - `top_right_panel.py`: Airline logo display
   - `bottom_left_panel.py`: Flight plan details output
   - `bottom_right_panel.py`: Action buttons
+  - `airline_generator_panel.py`: Airline finder by route and aircraft
+  - `flight_summary_panel.py`: Flight summary
 - `data/`: Processed airline-specific routes
   - `{airline}_routes.json`
+- `config/`: Configuration files
+  - `airline_files.json`: Mapping of airlines to route files
+  - `airline_logos.json`: Mapping of airlines to logo assets
+  - `flight_numbers.json`: Airline flight number ranges and prefixes
+  - `userData.json`: User preferences (SimBrief User ID)
 - `rawdata/`: Raw source data
   - `airline_routes.json`: Complete airline route network
   - `airports.csv`: Airport codes (Provided by [OurAirports](https://ourairports.com/data/))
@@ -128,6 +144,7 @@ The project is now modular with clear separation:
 
 - InquirerPy (for CLI)
 - PySide6 (for GUI)
+- requests
 
 ## Credits
 - Airport Data: [OurAirports](https://ourairports.com/data/)

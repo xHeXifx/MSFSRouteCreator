@@ -320,7 +320,7 @@ def update_airline_logos_config(airline_name, logo_filename):
         json.dump(airline_logos, f, indent=2)
 
 
-def save_airline_routes(airline_name, iata, icao, routes, output_file, skip_media=False):
+def save_airline_routes(airline_name, iata, icao, callsign, routes, output_file, skip_media=False):
     os.makedirs("data", exist_ok=True)
     
     with open(output_file, "w", encoding="utf-8") as f:
@@ -328,6 +328,7 @@ def save_airline_routes(airline_name, iata, icao, routes, output_file, skip_medi
             "airline": airline_name,
             "iata": iata,
             "icao": icao,
+            "callsign": callsign,
             "routes": routes
         }, f, indent=2)
     
@@ -381,11 +382,13 @@ for airline_name in valid_airlines:
     if airline_data and airline_data.get('iata') and airline_data.get('icao'):
         iata = airline_data['iata']
         icao = airline_data['icao']
+        callsign = airline_data.get('callsign', '')
         
         if iata and iata != '-' and iata != 'N/A':
             airline_routes[airline_name] = {
                 "iata": iata,
                 "icao": icao,
+                "callsign": callsign if callsign else '',
                 "routes": []
             }
             iata_to_airline_name[iata] = airline_name
@@ -606,6 +609,7 @@ for airline_name, airline_data in airline_routes.items():
             airline_name,
             airline_data["iata"],
             airline_data["icao"],
+            airline_data["callsign"],
             airline_data["routes"],
             filename,
             skip_media=args.no_media

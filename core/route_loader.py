@@ -70,6 +70,12 @@ def load_routes(airline_name):
         return json.load(f)["routes"]
 
 
+def load_airline_data(airline_name):
+    airline_files = _load_airline_files()
+    with open(airline_files[airline_name], "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 def build_airport_index(routes):
     airports = {}
     for r in routes:
