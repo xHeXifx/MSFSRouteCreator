@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import (QMainWindow, QWidget, QHBoxLayout, 
-                               QVBoxLayout, QMessageBox)
+                               QVBoxLayout, QMessageBox, QTabWidget)
 from PySide6.QtCore import Qt
 import webbrowser
 
@@ -7,8 +7,9 @@ from gui.top_left_panel import TopLeftPanel
 from gui.top_right_panel import TopRightPanel
 from gui.bottom_left_panel import BottomLeftPanel
 from gui.bottom_right_panel import BottomRightPanel
-from core.route_loader import load_routes, build_airport_index, get_airport_choices, extract_iata
-from core.logic import generate_random_route, build_simbrief_url, format_route_details
+from gui.verification_panel import VerificationPanel
+from core.route_loader import load_routes, build_airport_index, get_airport_choices, extract_iata, get_airline_files
+from core.logic import generate_random_route, build_simbrief_url, format_route_details, verify_route
 
 
 class MainWindow(QMainWindow):
@@ -28,6 +29,13 @@ class MainWindow(QMainWindow):
         central_widget = QWidget()
         main_layout = QVBoxLayout()
         
+        # Create tab widget
+        self.tab_widget = QTabWidget()
+        
+        # Create Generator tab
+        generator_tab = QWidget()
+        generator_layout = QVBoxLayout()
+        
         top_layout = QHBoxLayout()
         
         self.top_left = TopLeftPanel()
@@ -44,16 +52,29 @@ class MainWindow(QMainWindow):
         bottom_layout.addWidget(self.bottom_left, stretch=2)
         bottom_layout.addWidget(self.bottom_right, stretch=1)
         
-        main_layout.addLayout(top_layout, stretch=1)
-        main_layout.addLayout(bottom_layout, stretch=1)
+        generator_layout.addLayout(top_layout, stretch=1)
+        generator_layout.addLayout(bottom_layout, stretch=1)
+        generator_tab.setLayout(generator_layout)
+        
+        # Create Verification tab
+        self.verification_panel = VerificationPanel()
+        
+        # Add tabs
+        self.tab_widget.addTab(generator_tab, "Route Generator")
+        self.tab_widget.addTab(self.verification_panel, "Route Verifier")
+        
+        main_layout.addWidget(self.tab_widget)
         
         central_widget.setLayout(main_layout)
         self.setCentralWidget(central_widget)
         
+        # Connect signals
         self.top_left.airline_changed.connect(self.on_airline_changed)
         self.bottom_right.generate_clicked.connect(self.on_generate_clicked)
         self.bottom_right.simbrief_clicked.connect(self.on_simbrief_clicked)
         self.bottom_right.close_clicked.connect(self.close)
+        self.verification_panel.verify_clicked.connect(self.on_verify_route)
+        self.verification_panel.airline_input.textChanged.connect(self.on_verification_airline_changed)
     
     def load_initial_data(self):
         pass
@@ -148,3 +169,51 @@ class MainWindow(QMainWindow):
             self.current_route
         )
         webbrowser.open(url)
+    
+    def on_verify_route(self, airline, aircraft, departure, arrival):
+        try:
+            routes = load_routes(airline)
+            
+            try:
+                departure_iata = extract_iata(departure)
+            except:
+                QMessageBox.warning(
+                    self,
+                    "Invalid Input",
+                    "Please select a valid departure airport from the list"
+                )
+                return
+            
+            try:
+                arrival_iata = extract_iata(arrival)
+            except:
+                QMessageBox.warning(
+                    self,
+                    "Invalid Input",
+                    "Please select a valid arrival airport from the list"
+                )
+                return
+            
+            result = verify_route(routes, departure_iata, arrival_iata, aircraft, airline)
+            
+            self.verification_panel.display_result(result)
+            
+        except Exception as e:
+            QMessageBox.critical(
+                self,
+                "Verification Error",
+                f"Failed to verify route: {str(e)}"
+            )
+    
+    def on_verification_airline_changed(self):
+        airline_text = self.verification_panel.airline_input.text().strip()
+        
+        airline_files = get_airline_files()
+        if airline_text in airline_files:
+            try:
+                routes = load_routes(airline_text)
+                airport_index = build_airport_index(routes)
+                airport_choices = get_airport_choices(airport_index)
+                self.verification_panel.set_airport_choices(airport_choices)
+            except Exception as e:
+                self.verification_panel.set_airport_choices([])

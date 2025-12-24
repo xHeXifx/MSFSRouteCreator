@@ -104,3 +104,84 @@ def format_route_details(airline, aircraft, route):
         "distance": f"{route['distance_km']} km",
         "time": time_str
     }
+
+
+def verify_route(routes, departure_iata, arrival_iata, aircraft, airline_name):
+    result = {
+        'valid': False,
+        'airline': airline_name,
+        'aircraft': aircraft,
+        'departure': departure_iata.upper(),
+        'arrival': arrival_iata.upper(),
+        'reason': '',
+        'suggestions': []
+    }
+    
+    matching_route = None
+    departure_icao = None
+    arrival_icao = None
+    
+    for route in routes:
+        if route['from'] == departure_iata.upper() and route['to'] == arrival_iata.upper():
+            matching_route = route
+            departure_icao = route.get('from_icao', departure_iata.upper())
+            arrival_icao = route.get('to_icao', arrival_iata.upper())
+            break
+        if route['from'] == departure_iata.upper() and not departure_icao:
+            departure_icao = route.get('from_icao', departure_iata.upper())
+    
+    if not departure_icao:
+        departure_icao = departure_iata.upper()
+    if not arrival_icao:
+        arrival_icao = arrival_iata.upper()
+    
+    if not matching_route:
+        result['reason'] = f"No route found from {departure_icao} to {arrival_icao} for {airline_name}"
+        
+        departure_exists = any(r['from'] == departure_iata.upper() for r in routes)
+        arrival_exists = any(r['to'] == arrival_iata.upper() for r in routes)
+        
+        if not departure_exists:
+            result['suggestions'].append(f"{departure_icao} is not a departure airport for {airline_name}")
+        else:
+            possible_routes = [r for r in routes if r['from'] == departure_iata.upper()]
+            if possible_routes:
+                sample_size = min(5, len(possible_routes))
+                sampled_routes = random.sample(possible_routes, sample_size)
+                dest_details = []
+                for route in sampled_routes:
+                    to_icao = route.get('to_icao', route['to'])
+                    time = route['estimated_time_min']
+                    dest_details.append(f"{to_icao} (~{time}min)")
+                
+                dest_sample = ', '.join(dest_details)
+                result['suggestions'].append(f"Possible destinations from {departure_icao}: {dest_sample}")
+        
+        if not arrival_exists:
+            result['suggestions'].append(f"{arrival_icao} is not an arrival airport for {airline_name}")
+        
+        return result
+    
+    support_key = f"supports_{aircraft.lower()}"
+    aircraft_supported = True
+    aircraft_note = None
+    
+    if support_key in matching_route:
+        if not matching_route[support_key]:
+            aircraft_supported = False
+            aircraft_note = f"{aircraft} may not be typically used on this route"
+    
+    result['valid'] = True
+    result['route_info'] = {
+        'from_name': matching_route['from_name'],
+        'from_icao': matching_route.get('from_icao', ''),
+        'to_name': matching_route['to_name'],
+        'to_icao': matching_route.get('to_icao', ''),
+        'distance_km': matching_route['distance_km'],
+        'estimated_time_min': matching_route['estimated_time_min']
+    }
+    
+    if not aircraft_supported and aircraft_note:
+        result['aircraft_notes'] = aircraft_note
+    
+    return result
