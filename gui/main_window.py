@@ -127,15 +127,20 @@ class MainWindow(QMainWindow):
 
         if not departure_text:
             import random
-            departure_airports = list(set(r['from'] for r in self.routes))
-            if not departure_airports:
+            support_key = f"supports_{aircraft.lower()}"
+            valid_departures = list(set(
+                r['from'] for r in self.routes 
+                if r.get(support_key, False)
+            ))
+            
+            if not valid_departures:
                 QMessageBox.warning(
                     self,
                     "No Routes Available",
-                    "No routes available for this airline."
+                    f"No routes available for this airline with {aircraft} support."
                 )
                 return
-            origin_iata = random.choice(departure_airports)
+            origin_iata = random.choice(valid_departures)
         else:
             try:
                 origin_iata = extract_iata(departure_text)

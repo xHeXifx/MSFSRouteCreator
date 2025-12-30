@@ -94,16 +94,16 @@ MIN_RANGE_KM = {
 }
 
 MAJOR_AIRPORTS = {
-    "A35K": {"CDG", "LHR", "JFK", "ORD", "HND", "SIN"},
-    "A388": {"LHR", "JFK", "LAX", "DXB", "SIN", "SYD"},
-    "B772": {"LHR", "JFK", "LAX", "DXB", "SIN"},
-    "B78X": {"LHR", "JFK", "LAX", "DXB", "SIN", "SYD"},
-    "CONC": {"LHR", "JFK"},
-    "MD11": {"FRA", "JFK", "LAX", "AMS"},
-    "B752": {"LHR", "JFK", "LAX", "ORD"},
-    "DHC6": {"YVR", "YYC", "SEA", "ANC"},
-    "SB20": {"LED", "MSQ", "KBP"},
-    "T204": {"VKO", "LED"}
+    "A35K": {"LFPG", "EGLL", "KJFK", "KORD", "RJTT", "WSSS"},
+    "A388": {"EGLL", "KJFK", "KLAX", "OMDB", "WSSS", "YSSY"},
+    "B772": {"EGLL", "KJFK", "KLAX", "OMDB", "WSSS"},
+    "B78X": {"EGLL", "KJFK", "KLAX", "OMDB", "WSSS", "YSSY"},
+    "CONC": {"EGLL", "KJFK"},
+    "MD11": {"EDDF", "KJFK", "KLAX", "EHAM"},
+    "B752": {"EGLL", "KJFK", "KLAX", "KORD"},
+    "DHC6": {"CYVR", "CYYC", "KSEA", "PANC"},
+    "SB20": {"ULLI", "UMMS", "UKBB"},
+    "T204": {"UUWW", "ULLI"}
 }
 
 LOGO_REPO_URL = "https://raw.githubusercontent.com/Jxck-S/airline-logos/refs/heads/main/avcodes_banners/{icao}.png"
